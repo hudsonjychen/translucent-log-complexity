@@ -1,0 +1,6 @@
+[submodule "external/TranslucentActivityRelationships"]
+	path = external/TranslucentActivityRelationships
+	url = https://github.com/hherbertb/TranslucentActivityRelationships.git
+[submodule "external/semantic-aware-process-mining-distances"]
+	path = external/semantic-aware-process-mining-distances
+	url = https://github.com/henrikkirchmann/semantic-aware-process-mining-distances.git
