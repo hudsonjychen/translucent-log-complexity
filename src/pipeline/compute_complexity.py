@@ -1,4 +1,4 @@
-from ..complexity_measurement.measure_complexity import measure_complexity
+from ..complexity_measurements.measure_complexity import measure_complexity
 import pandas as pd
 from .generate_translucent_logs import Log
 from sklearn.preprocessing import StandardScaler

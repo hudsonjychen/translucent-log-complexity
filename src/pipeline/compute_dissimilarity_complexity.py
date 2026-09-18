@@ -1,6 +1,6 @@
 from typing import Dict
 
-from ..complexity_measurement.measure_complexity import measure_complexity
+from ..complexity_measurements.measure_complexity import measure_complexity
 from tqdm.notebook import tqdm
 import pandas as pd
 from .generate_translucent_logs import Log
