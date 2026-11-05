@@ -1,7 +1,7 @@
 import pandas as pd
 from typing import List
 from ..baseline_complexity_measurements.baseline_complexity import variety, structure, affinity
-from generate_translucent_logs import Log
+from .generate_translucent_logs import Log
 
 
 CASE = 'case:concept:name'

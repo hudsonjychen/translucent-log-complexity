@@ -1,0 +1,14 @@
+{
+  "name": "BPIC 13 Closed Problems",
+  "settings": {
+    "split": true,
+    "noise_threshold": 0.4,
+    "train_ratio": 0.5,
+    "seed": 42,
+    "max_align_time_trace": null
+  },
+  "seconds": 0.8,
+  "cases": 711,
+  "events": 3056,
+  "finished": "2026-11-04 19:00:52"
+}

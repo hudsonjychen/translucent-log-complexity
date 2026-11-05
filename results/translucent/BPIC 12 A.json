@@ -1,0 +1,14 @@
+{
+  "name": "BPIC 12 A",
+  "settings": {
+    "split": true,
+    "noise_threshold": 0.4,
+    "train_ratio": 0.5,
+    "seed": 42,
+    "max_align_time_trace": null
+  },
+  "seconds": 6.1,
+  "cases": 5201,
+  "events": 57782,
+  "finished": "2026-11-05 10:31:36"
+}
