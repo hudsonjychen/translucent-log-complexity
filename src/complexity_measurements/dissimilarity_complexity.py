@@ -41,7 +41,8 @@ def _get_distance_matrix(
     ngram_size: Literal[3, 5, 9],
     bag_of_words: bool | Literal[0, 1, 2]
 ) -> DistanceMatrix:
-    dataframe = dataframe.sort_values([case_key, timestamp_key], kind="mergesort")
+    # Events are already in order within each case, so no timestamp sort is needed
+    # (and some logs, e.g. Helpdesk, have no time:timestamp column).
     log = (
         dataframe.groupby(case_key, sort=False)[activity_key]
         .agg(lambda acts: [str(a) for a in acts])

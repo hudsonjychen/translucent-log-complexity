@@ -11,8 +11,8 @@ import pm4py
 from pm4py.objects.log.obj import EventLog
 from pm4py.objects.process_tree.obj import ProcessTree
 
-PARALLEL = (0, 0.1, 0.25)
-LOOP = (0, 0.1, 0.25)
+PARALLEL = (0.05, 0.1, 0.25)
+LOOP = (0.05, 0.1, 0.25)
 
 
 def generate_process_trees(number_per_setting: int, parallel=PARALLEL, loop=LOOP, seed: int = 42) -> list[dict]:
@@ -60,5 +60,5 @@ def generate_tree_logs(
     for n, t in enumerate(generate_process_trees(number_per_setting, parallel, loop, seed)):
         net, im, fm = pm4py.convert_to_petri_net(t["tree"])
         log = simulate_log(net, im, fm, num_traces, max_trace_length)
-        results.append({"name": f"Simulated Log {n}", **t, "net": net, "im": im, "fm": fm, "log": log})
+        results.append({"name": f"Simulated Log {n+1}", **t, "net": net, "im": im, "fm": fm, "log": log})
     return results

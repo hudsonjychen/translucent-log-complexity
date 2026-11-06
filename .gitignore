@@ -9,6 +9,7 @@ dist/
 *.egg-info/
 
 *.log
+*.json
 
 .env
 

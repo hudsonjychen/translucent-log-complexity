@@ -7,7 +7,7 @@ sys.path.insert(0, str(EXTERNAL_PATH))
 
 from .discover_petri_nets import Model
 from TranslucentActivityRelationships.translucent_precision.main import translucent_precision_score
-from tqdm.notebook import tqdm
+from tqdm.auto import tqdm
 import pandas as pd
 import pm4py
 

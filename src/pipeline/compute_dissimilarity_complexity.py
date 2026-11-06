@@ -1,7 +1,7 @@
 from typing import Dict
 
 from ..complexity_measurements.measure_complexity import measure_complexity
-from tqdm.notebook import tqdm
+from tqdm.auto import tqdm
 import pandas as pd
 from .generate_translucent_logs import Log
 from sklearn.preprocessing import StandardScaler
