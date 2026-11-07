@@ -1,6 +1,12 @@
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "external" / "process-complexity"))
+
 import pandas as pd
 from typing import List
-from ..baseline_complexity_measurements.baseline_complexity import variety, structure, affinity
+import Complexity
 from .generate_translucent_logs import Log
 
 

@@ -4,3 +4,6 @@
 [submodule "external/semantic-aware-process-mining-distances"]
 	path = external/semantic-aware-process-mining-distances
 	url = https://github.com/henrikkirchmann/semantic-aware-process-mining-distances.git
+[submodule "external/process-complexity"]
+	path = external/process-complexity
+	url = https://github.com/MaxVidgof/process-complexity.git

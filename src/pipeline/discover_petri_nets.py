@@ -1,7 +1,7 @@
 from pathlib import Path
 import sys
 
-ROOT = Path(__file__).resolve().parent.parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 EXTERNAL_PATH = ROOT / "external"
 sys.path.insert(0, str(EXTERNAL_PATH))
 
@@ -11,6 +11,7 @@ import pm4py
 from pm4py import PetriNet, Marking
 import pandas as pd
 from typing import TypedDict
+from tqdm.auto import tqdm
 
 class Variant(TypedDict):
     net: PetriNet
@@ -31,7 +32,7 @@ def discover_petri_nets(logs: list[Log], noise_threshold: float | int = 0.2) -> 
     variants = ['IMts', 'IMto', 'IMtf'] 
     variants_with_noise_threshold = ['IMfts', 'IMfto', 'IMftf'] 
     models = list() 
-    for log in logs:
+    for log in tqdm(logs):
         dataframe = log['dataframe']
         formatted_dataframe = pm4py.format_dataframe(
             dataframe, 
