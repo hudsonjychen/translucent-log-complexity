@@ -19,6 +19,12 @@ if __name__ == "__main__":
     with open(args.input, "rb") as f:
         logs = pickle.load(f)
 
+    # a translucent log is empty when no test case fitted the model; there is nothing to discover from
+    empty = [x["name"] for x in logs if len(x["dataframe"]) == 0]
+    if empty:
+        print(f"skipping {len(empty)} empty translucent log(s): {', '.join(empty)}")
+    logs = [x for x in logs if len(x["dataframe"]) > 0]
+
     models = discover_petri_nets(logs)
     quality = compute_model_quality(models)
 

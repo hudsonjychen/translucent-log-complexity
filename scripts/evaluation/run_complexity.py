@@ -18,6 +18,13 @@ if __name__ == "__main__":
 
     with open(args.input, "rb") as f:
         logs = pickle.load(f)
+
+    # a translucent log is empty when no test case fitted the model; there is nothing to measure
+    empty = [x["name"] for x in logs if len(x["dataframe"]) == 0]
+    if empty:
+        print(f"skipping {len(empty)} empty translucent log(s): {', '.join(empty)}")
+    logs = [x for x in logs if len(x["dataframe"]) > 0]
+
     complexity = compute_complexity(logs)
     diss_complexity = compute_dissimilarity_complexity(logs)
     combined_complexity = complexity.merge(diss_complexity, on="name", how="inner")
