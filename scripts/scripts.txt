@@ -1,5 +1,5 @@
 Generate simulated event logs
-"python scripts/simulated_generation/run_generation.py --number-per-setting 5"
+"python scripts/simulated_generation/run_generation.py --number-per-setting 5 --noise 0.2"
 
 Generate translucent event logs
 --- real-life ---
@@ -7,7 +7,15 @@ Generate translucent event logs
 --- synthetic ---
 "python scripts/translucent_generation/run_generation.py --timeout-hours 3 --logs-dir synthetic_logs --out-dir results/translucent_synthetic --combined results/translucent_synthetic/translucent_synthetic_logs.pkl"
 --- simulated ---
-"python scripts/translucent_generation/run_generation.py --timeout-hours 3 --logs-dir simulated_logs --out-dir results/translucent_simulated --combined results/translucent_simulated/translucent_simulated_logs.pkl"
+"python scripts/translucent_generation/run_generation.py --timeout-hours 3 --no-split --logs-dir simulated_logs --out-dir results/translucent_simulated --combined results/translucent_simulated/translucent_simulated_logs.pkl"
+
+Get activity number
+--- real-life ---
+"python scripts/evaluation/get_activity_number.py --input results/translucent_real_life/translucent_real_life_logs.pkl --output results/evaluation/real_life/activity_number.csv"
+--- synthetic ---
+"python scripts/evaluation/get_activity_number.py --input results/translucent_synthetic/translucent_synthetic_logs.pkl --output results/evaluation/synthetic/activity_number.csv"
+--- simulated ---
+"python scripts/evaluation/get_activity_number.py --input results/translucent_simulated/translucent_simulated_logs.pkl --output results/evaluation/simulated/activity_number.csv"
 
 Compute complexity and quality
 --- real-life ---
