@@ -1,0 +1,21 @@
+# Third-party packages imported by this project's own code (src/, scripts/, notebooks/).
+# Code under external/ is NOT covered here; install it with:
+#   python install_external_requirements.py
+# Versions follow the pins in requirements.txt (Python 3.10).
+
+# core
+numpy==1.23.1
+pandas==2.2.2
+pm4py==2.7.10.1
+scipy==1.11.4
+scikit-learn==1.1.2
+tqdm==4.66.2
+
+# plotting / analysis (scripts/evaluation, notebooks/experiment.ipynb)
+matplotlib==3.5.2
+seaborn==0.11.2
+statsmodels==0.14.0
+
+# notebooks
+ipykernel==6.15.1
+jupyterlab==4.5.5
