@@ -14,6 +14,8 @@ if __name__ == "__main__":
     p = argparse.ArgumentParser()
     p.add_argument("--input", type=Path, default=ROOT / "results" / "translucent_real_life" / "translucent_real_life_logs.pkl")
     p.add_argument("--output", type=Path, default=ROOT / "results" / "evaluation" / "real_life" / "quality.csv")
+    p.add_argument("--methods", nargs="+", choices=["token_replay", "translucent_precision"], default=["token_replay"],
+                   help="quality measures to compute (default: token_replay)")
     args = p.parse_args()
 
     with open(args.input, "rb") as f:
@@ -26,7 +28,7 @@ if __name__ == "__main__":
     logs = [x for x in logs if len(x["dataframe"]) > 0]
 
     models = discover_petri_nets(logs)
-    quality = compute_model_quality(models)
+    quality = compute_model_quality(models, methods=args.methods)
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     quality.to_csv(args.output, index=False)

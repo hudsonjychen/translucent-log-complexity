@@ -24,11 +24,11 @@ from matplotlib.colors import LinearSegmentedColormap
 ROOT = Path(__file__).resolve().parents[2]
 
 ROWS = {
-    "complexity_avg_raw_std": "Average (raw)",
-    "complexity_avg_norm_std": "Average (normalized)",
-    "complexity_div_std": "Diversity",
-    "complexity_disp_std": "Dispersion",
-    "complexity_diss_aa_seq_std": "Dissimilarity (aa, seq)",
+    "complexity_avg_raw": "Average (raw)",
+    "complexity_avg_norm": "Average (normalized)",
+    "complexity_div": "Diversity",
+    "complexity_disp": "Dispersion",
+    "complexity_diss_aa_seq": "Dissimilarity (aa, seq)",
 }
 COLS = {
     "f_score_imtf": "IMtf",

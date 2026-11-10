@@ -74,7 +74,7 @@ def fit_stats(model, tgt, controls: list[str] | None = None):
     }
 
 
-def run_regression(df, targets, predictors, out_dir: Path, type: Literal["translucent", "baseline"]="translucent",
+def run_regression(df, targets, predictors, out_dir: Path, type: Literal["translucent", "baseline", "mixed"]="translucent",
                    controls: list[str] | None = None):
     """Fit one OLS per target. `controls` is an optional list of column names that are added to
     every model as control variables; their coefficients are marked role="control" in the output.

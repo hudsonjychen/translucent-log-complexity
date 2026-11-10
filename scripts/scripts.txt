@@ -21,12 +21,12 @@ Compute complexity and quality
 --- real-life ---
 "python scripts/evaluation/run_complexity.py --input results/translucent_real_life/translucent_real_life_logs.pkl --output results/evaluation/real_life/complexity.csv"
 "python scripts/evaluation/run_baseline_complexity.py --input results/translucent_real_life/translucent_real_life_logs.pkl --output results/evaluation/real_life/baseline_complexity.csv"
-"python scripts/evaluation/run_model_quality.py --input results/translucent_real_life/translucent_real_life_logs.pkl --output results/evaluation/real_life/quality.csv"
+"python scripts/evaluation/run_model_quality.py --input results/translucent_real_life/translucent_real_life_logs.pkl --output results/evaluation/real_life/quality.csv --methods ["token_replay", "translucent_precision"]"
 --- synthetic ---
 "python scripts/evaluation/run_complexity.py --input results/translucent_synthetic/translucent_synthetic_logs.pkl --output results/evaluation/synthetic/complexity.csv"
 "python scripts/evaluation/run_baseline_complexity.py --input results/translucent_synthetic/translucent_synthetic_logs.pkl --output results/evaluation/synthetic/baseline_complexity.csv"
-"python scripts/evaluation/run_model_quality.py --input results/translucent_synthetic/translucent_synthetic_logs.pkl --output results/evaluation/synthetic/quality.csv"
+"python scripts/evaluation/run_model_quality.py --input results/translucent_synthetic/translucent_synthetic_logs.pkl --output results/evaluation/synthetic/quality.csv --methods ["token_replay", "translucent_precision"]"
 --- simulated ---
 "python scripts/evaluation/run_complexity.py --input results/translucent_simulated/translucent_simulated_logs.pkl --output results/evaluation/simulated/complexity.csv"
 "python scripts/evaluation/run_baseline_complexity.py --input results/translucent_simulated/translucent_simulated_logs.pkl --output results/evaluation/simulated/baseline_complexity.csv"
-"python scripts/evaluation/run_model_quality.py --input results/translucent_simulated/translucent_simulated_logs.pkl --output results/evaluation/simulated/quality.csv"
+"python scripts/evaluation/run_model_quality.py --input results/translucent_simulated/translucent_simulated_logs.pkl --output results/evaluation/simulated/quality.csv --methods ["token_replay", "translucent_precision"]"

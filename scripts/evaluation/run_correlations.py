@@ -76,7 +76,7 @@ def _with_type(path: Path, type: str) -> Path:
 def run_correlations(df, outputs: list[Path], type: Literal["translucent", "baseline"] = "translucent"):
     """outputs: [pearson corr, pearson p-values, kendall corr, kendall p-values];
     each file is saved with _<type> before its extension. Saved without row labels
-    (the rows are in the same order as the columns)."""
+    (the rows are in the same order as the columns). verbose=True prints each written path."""
     p_corr = get_corr_matrix(df, method="pearson")
     p_p_values = get_p_values(df, method="pearson")
     k_corr = get_corr_matrix(df, method="kendall")
@@ -86,6 +86,5 @@ def run_correlations(df, outputs: list[Path], type: Literal["translucent", "base
         output = _with_type(output, type)
         output.parent.mkdir(parents=True, exist_ok=True)
         result.to_csv(output, index=False)
-        print(f"wrote {output}")
 
     return p_corr, p_p_values, k_corr, k_p_values

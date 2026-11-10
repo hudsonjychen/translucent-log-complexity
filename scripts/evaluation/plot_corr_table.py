@@ -35,11 +35,11 @@ plt.rcParams.update({
 })
 
 ROWS = {
-    "complexity_avg_raw_std": "avg-raw-c",
-    "complexity_avg_norm_std": "avg-norm-c",
-    "complexity_div_std": "div-c",
-    "complexity_disp_std": "disp-c",
-    "complexity_diss_aa_seq_std": "diss-c",
+    "complexity_avg_raw": "avg-raw-c",
+    "complexity_avg_norm": "avg-norm-c",
+    "complexity_div": "div-c",
+    "complexity_disp": "disp-c",
+    "complexity_diss_aa_seq": "diss-c",
 }
 LEFT_COLS = list(ROWS)[:-1]  # lower triangle: the last metric never appears as a column
 RIGHT_COLS = {

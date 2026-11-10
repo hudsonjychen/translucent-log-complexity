@@ -6,41 +6,85 @@ EXTERNAL_PATH = ROOT / "external"
 sys.path.insert(0, str(EXTERNAL_PATH))
 
 from .discover_petri_nets import Model
-from TranslucentActivityRelationships.translucent_precision.main import translucent_precision_score
+from TranslucentActivityRelationships.translucent_precision.main import get_alignments, compute_translucent_precision
+from TranslucentActivityRelationships.translucent_precision.AlignmentEnabledPrefixAutomaton import AlignmentEnabledPrefixAutomaton
+from TranslucentActivityRelationships.utils.ReachabilityGraph import ReachabilityGraph
+from TranslucentActivityRelationships.utils.DirectReachabilityGraph import DirectReachabilityGraph
+from pm4py.objects.conversion.log import converter as log_converter
 from tqdm.auto import tqdm
+import math
+from typing import Sequence
+import networkx as nx
 import pandas as pd
 import pm4py
 
-def compute_model_quality(models: list[Model]) -> pd.DataFrame:
-    variants = ['IMts', 'IMto', 'IMtf', 'IMfts', 'IMfto', 'IMftf'] 
+METHODS = ("token_replay", "translucent_precision")
 
-    precision_dict = {key: [] for key in variants}
-    fitness_dict = {key: [] for key in variants}
-    f_score_dict = {key: [] for key in variants}
+# start node of the model DFA as compute_translucent_precision expects it
+DFA_START = frozenset({frozenset({0})})
 
-    names = list()
+
+def _translucent_precision(dataframe: pd.DataFrame, net, i_m, f_m, name: str, variant: str) -> float:
+    """Translucent precision, as translucent_precision_score in TranslucentActivityRelationships.
+
+    Same steps as upstream, with one fix: upstream looks up the start of the model DFA as
+    DFA_START, but automata-lib can merge the start state with equivalent states (e.g. when the
+    model can return to its initial state), and the start node is then named
+    frozenset({frozenset({0}), ...}). Equivalent states have the same enabled activities, so the
+    merged node is renamed to DFA_START. Only perfectly fitting traces are used; with none the
+    score is undefined (NaN)."""
+    log = log_converter.apply(dataframe, variant=log_converter.Variants.TO_EVENT_LOG)
+    alignments = get_alignments(log, net, i_m, f_m)
+    automaton = AlignmentEnabledPrefixAutomaton(log, net, i_m, f_m).alignment_enabled_prefix_automaton
+    r_g = ReachabilityGraph(net, i_m, f_m, 1)
+    d_r_g = DirectReachabilityGraph(r_g)
+    dfa = d_r_g.dfa
+    if DFA_START not in dfa:
+        (start,) = [node for node in dfa if frozenset({0}) in node]
+        nx.relabel_nodes(dfa, {start: DFA_START}, copy=False)
+    try:
+        return compute_translucent_precision(alignments, automaton, r_g, d_r_g.direct_reachability_graph, dfa)
+    except ZeroDivisionError:
+        tqdm.write(f"{name} / {variant}: no perfectly fitting trace, translucent precision is NaN")
+        return math.nan
+
+
+def compute_model_quality(models: list[Model], methods: Sequence[str] = ("token_replay",)) -> pd.DataFrame:
+    """Quality of each discovered model, one row per log.
+
+    methods selects what is computed:
+      - "token_replay": precision_<v>, fitness_<v> and their F-score f_score_<v> (token-based replay)
+      - "translucent_precision": translucent_precision_<v> (alignment-based, much slower)
+    The F-score always uses the token-based replay values only."""
+    unknown = set(methods) - set(METHODS)
+    if unknown:
+        raise ValueError(f"unknown method(s) {sorted(unknown)}; choose from {list(METHODS)}")
+    if not methods:
+        raise ValueError("methods is empty")
+
+    variants = ['IMts', 'IMto', 'IMtf', 'IMfts', 'IMfto', 'IMftf']
+    rows = []
 
     for model in tqdm(models):
         dataframe = model['dataframe']
-        names.append(model['name'])
+        row = {'name': model['name']}
         for variant in variants:
             model_var = model[variant]
             net, i_m, f_m = model_var['net'], model_var['i_m'], model_var['f_m']
+            v = variant.lower()
 
-            precision = pm4py.precision_token_based_replay(dataframe, net, i_m, f_m)
+            if "token_replay" in methods:
+                precision = pm4py.precision_token_based_replay(dataframe, net, i_m, f_m)
+                row[f'precision_{v}'] = precision
 
-            fitness_output = pm4py.fitness_token_based_replay(dataframe, net, i_m, f_m)
-            fitness = fitness_output['log_fitness']
+            if "translucent_precision" in methods:
+                row[f'translucent_precision_{v}'] = _translucent_precision(dataframe, net, i_m, f_m, model['name'], variant)
 
-            f_score = 2 * (fitness * precision) / (fitness + precision) if (fitness + precision) > 0 else 0
+            if "token_replay" in methods:
+                fitness = pm4py.fitness_token_based_replay(dataframe, net, i_m, f_m)['log_fitness']
+                f_score = 2 * (fitness * precision) / (fitness + precision) if (fitness + precision) > 0 else 0
+                row[f'fitness_{v}'] = fitness
+                row[f'f_score_{v}'] = f_score
+        rows.append(row)
 
-            precision_dict[variant].append(precision)
-            fitness_dict[variant].append(fitness)
-            f_score_dict[variant].append(f_score)
-    
-    df_dict = {'name': names}
-    for variant in variants:
-        df_dict[f'precision_{variant.lower()}'] = precision_dict[variant]
-        df_dict[f'fitness_{variant.lower()}'] = fitness_dict[variant]
-        df_dict[f'f_score_{variant.lower()}'] = f_score_dict[variant]
-    return pd.DataFrame(df_dict)
+    return pd.DataFrame(rows)
