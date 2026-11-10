@@ -16,6 +16,10 @@ if __name__ == "__main__":
     p.add_argument("--output", type=Path, default=ROOT / "results" / "evaluation" / "real_life" / "quality.csv")
     p.add_argument("--methods", nargs="+", choices=["token_replay", "translucent_precision"], default=["token_replay"],
                    help="quality measures to compute (default: token_replay)")
+    p.add_argument("--timeout-hours", type=float, default=None,
+                   help="time limit for translucent precision per model (one log and one IM variant); "
+                        "a model over the limit gets NaN and is listed in translucent_precision_timed_out "
+                        "(default: no limit)")
     args = p.parse_args()
 
     with open(args.input, "rb") as f:
@@ -28,7 +32,7 @@ if __name__ == "__main__":
     logs = [x for x in logs if len(x["dataframe"]) > 0]
 
     models = discover_petri_nets(logs)
-    quality = compute_model_quality(models, methods=args.methods)
+    quality = compute_model_quality(models, methods=args.methods, timeout_hours=args.timeout_hours)
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     quality.to_csv(args.output, index=False)
