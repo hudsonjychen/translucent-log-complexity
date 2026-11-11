@@ -1,0 +1,19 @@
+name,num_activities_executed,num_activities,num_activities_enabled_only
+Synthetic Log 1,6,6,0
+Synthetic Log 10,13,13,0
+Synthetic Log 12,13,13,0
+Synthetic Log 13,22,26,4
+Synthetic Log 14,9,17,8
+Synthetic Log 15,14,14,0
+Synthetic Log 16,5,5,0
+Synthetic Log 17,9,9,0
+Synthetic Log 19,24,24,0
+Synthetic Log 2,5,5,0
+Synthetic Log 20,27,28,1
+Synthetic Log 21,26,28,2
+Synthetic Log 3,7,7,0
+Synthetic Log 5,5,5,0
+Synthetic Log 6,5,5,0
+Synthetic Log 7,5,5,0
+Synthetic Log 8,7,7,0
+Synthetic Log 9,5,5,0

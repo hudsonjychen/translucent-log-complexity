@@ -1,0 +1,1027 @@
+model,target,name,dataset,cooks_d
+baseline,f_score_imtf,BPIC 12 A,real_life,0.7130894294502025
+baseline,f_score_imtf,BPIC 12 W,real_life,0.010056968354381498
+baseline,f_score_imtf,BPIC 13 Closed Problems,real_life,0.011947537958300534
+baseline,f_score_imtf,BPIC 17 Offer,real_life,0.031658722705801855
+baseline,f_score_imtf,BPIC 19 2-way Match,real_life,0.0009567496917583812
+baseline,f_score_imtf,BPIC 19 Consignment,real_life,0.018614693691020343
+baseline,f_score_imtf,BPIC 20 Domestic Declarations,real_life,0.00881675467270665
+baseline,f_score_imtf,BPIC 20 International Declarations,real_life,0.08024202913812085
+baseline,f_score_imtf,BPIC 20 Permit Log,real_life,0.052228315792808344
+baseline,f_score_imtf,BPIC 20 Prepaid Travel Cost,real_life,0.014308030309248466
+baseline,f_score_imtf,BPIC 20 Request For Payment,real_life,0.007591782045563857
+baseline,f_score_imtf,Berlin Lawmaking,real_life,0.019922270363828046
+baseline,f_score_imtf,Helpdesk,real_life,0.07816003939756569
+baseline,f_score_imtf,Hospital Billing,real_life,0.1300447699899828
+baseline,f_score_imtf,WABO Receipt Phase,real_life,0.09318170009004711
+baseline,f_score_imtf,Synthetic Log 1,synthetic,0.0008051667322527485
+baseline,f_score_imtf,Synthetic Log 10,synthetic,0.0024573986543225015
+baseline,f_score_imtf,Synthetic Log 12,synthetic,0.00029309432783022123
+baseline,f_score_imtf,Synthetic Log 13,synthetic,0.03152039611533918
+baseline,f_score_imtf,Synthetic Log 14,synthetic,0.010207854977629282
+baseline,f_score_imtf,Synthetic Log 15,synthetic,0.013382205070250229
+baseline,f_score_imtf,Synthetic Log 16,synthetic,2.554379097116636e-05
+baseline,f_score_imtf,Synthetic Log 17,synthetic,0.0008546869502397772
+baseline,f_score_imtf,Synthetic Log 19,synthetic,0.005565698303569756
+baseline,f_score_imtf,Synthetic Log 2,synthetic,2.554379097116636e-05
+baseline,f_score_imtf,Synthetic Log 20,synthetic,0.031063109725914455
+baseline,f_score_imtf,Synthetic Log 21,synthetic,0.002867055489375405
+baseline,f_score_imtf,Synthetic Log 3,synthetic,4.85703176171097e-05
+baseline,f_score_imtf,Synthetic Log 5,synthetic,0.03382806544375976
+baseline,f_score_imtf,Synthetic Log 6,synthetic,2.554379097116636e-05
+baseline,f_score_imtf,Synthetic Log 7,synthetic,2.554379097116636e-05
+baseline,f_score_imtf,Synthetic Log 8,synthetic,0.0005138129150997881
+baseline,f_score_imtf,Synthetic Log 9,synthetic,2.554379097116636e-05
+baseline,f_score_imtf,Simulated Log 1,simulated,0.008637021031501043
+baseline,f_score_imtf,Simulated Log 11,simulated,0.006430925178515518
+baseline,f_score_imtf,Simulated Log 12,simulated,0.0025000890440094055
+baseline,f_score_imtf,Simulated Log 14,simulated,0.02271533858415183
+baseline,f_score_imtf,Simulated Log 16,simulated,0.03660598128843752
+baseline,f_score_imtf,Simulated Log 17,simulated,0.00028260510424085906
+baseline,f_score_imtf,Simulated Log 18,simulated,0.002058160397960055
+baseline,f_score_imtf,Simulated Log 2,simulated,0.0002355679096079616
+baseline,f_score_imtf,Simulated Log 20,simulated,0.007344766089170419
+baseline,f_score_imtf,Simulated Log 22,simulated,0.010297484682319823
+baseline,f_score_imtf,Simulated Log 23,simulated,0.0008510547910951851
+baseline,f_score_imtf,Simulated Log 24,simulated,0.009917993035959556
+baseline,f_score_imtf,Simulated Log 27,simulated,0.016286173869688544
+baseline,f_score_imtf,Simulated Log 28,simulated,0.00023897714484960865
+baseline,f_score_imtf,Simulated Log 3,simulated,0.010588154783509048
+baseline,f_score_imtf,Simulated Log 30,simulated,0.08307944856786016
+baseline,f_score_imtf,Simulated Log 34,simulated,0.0014628082841721167
+baseline,f_score_imtf,Simulated Log 4,simulated,0.008270792276410496
+baseline,f_score_imtf,Simulated Log 40,simulated,0.0037129646049297296
+baseline,f_score_imtf,Simulated Log 42,simulated,3.155872834382212e-05
+baseline,f_score_imtf,Simulated Log 5,simulated,0.0022237018850791708
+baseline,f_score_imtf,Simulated Log 7,simulated,0.003510038770261985
+baseline,f_score_imtf,Simulated Log 8,simulated,0.008003115565104704
+baseline,f_score_imtf,Simulated Log 9,simulated,1.0626887159151154e-05
+baseline,f_score_imts,BPIC 12 A,real_life,0.822476670599402
+baseline,f_score_imts,BPIC 12 W,real_life,0.01175835171629035
+baseline,f_score_imts,BPIC 13 Closed Problems,real_life,0.002172147226124753
+baseline,f_score_imts,BPIC 17 Offer,real_life,0.034990127588395856
+baseline,f_score_imts,BPIC 19 2-way Match,real_life,0.008767281150596332
+baseline,f_score_imts,BPIC 19 Consignment,real_life,0.0044527622268203506
+baseline,f_score_imts,BPIC 20 Domestic Declarations,real_life,0.008227403872577243
+baseline,f_score_imts,BPIC 20 International Declarations,real_life,0.111924750305303
+baseline,f_score_imts,BPIC 20 Permit Log,real_life,0.022223787785443965
+baseline,f_score_imts,BPIC 20 Prepaid Travel Cost,real_life,0.018204404138088263
+baseline,f_score_imts,BPIC 20 Request For Payment,real_life,0.007692650561811259
+baseline,f_score_imts,Berlin Lawmaking,real_life,0.004181448921711081
+baseline,f_score_imts,Helpdesk,real_life,0.014977446637497623
+baseline,f_score_imts,Hospital Billing,real_life,0.1970876301525276
+baseline,f_score_imts,WABO Receipt Phase,real_life,0.12353500814971097
+baseline,f_score_imts,Synthetic Log 1,synthetic,0.00949110852576504
+baseline,f_score_imts,Synthetic Log 10,synthetic,0.002334681951357653
+baseline,f_score_imts,Synthetic Log 12,synthetic,0.0006758443757995955
+baseline,f_score_imts,Synthetic Log 13,synthetic,0.018388595720376034
+baseline,f_score_imts,Synthetic Log 14,synthetic,0.001953632130008178
+baseline,f_score_imts,Synthetic Log 15,synthetic,0.0919284931404843
+baseline,f_score_imts,Synthetic Log 16,synthetic,0.004026622380684746
+baseline,f_score_imts,Synthetic Log 17,synthetic,0.000570286481104943
+baseline,f_score_imts,Synthetic Log 19,synthetic,0.00830943973903448
+baseline,f_score_imts,Synthetic Log 2,synthetic,0.004026622380684746
+baseline,f_score_imts,Synthetic Log 20,synthetic,0.016679932643112797
+baseline,f_score_imts,Synthetic Log 21,synthetic,0.03906640141228432
+baseline,f_score_imts,Synthetic Log 3,synthetic,5.3443870172400976e-05
+baseline,f_score_imts,Synthetic Log 5,synthetic,0.0011294895354803675
+baseline,f_score_imts,Synthetic Log 6,synthetic,0.004026622380684746
+baseline,f_score_imts,Synthetic Log 7,synthetic,0.004026622380684746
+baseline,f_score_imts,Synthetic Log 8,synthetic,2.1045837806708747e-05
+baseline,f_score_imts,Synthetic Log 9,synthetic,0.004026622380684746
+baseline,f_score_imts,Simulated Log 1,simulated,0.004288516659402419
+baseline,f_score_imts,Simulated Log 11,simulated,0.0001937843403421354
+baseline,f_score_imts,Simulated Log 12,simulated,0.00018861506620576653
+baseline,f_score_imts,Simulated Log 14,simulated,0.021916607069231014
+baseline,f_score_imts,Simulated Log 16,simulated,0.004447447825306151
+baseline,f_score_imts,Simulated Log 17,simulated,0.0002288708533691793
+baseline,f_score_imts,Simulated Log 18,simulated,0.02939662381676853
+baseline,f_score_imts,Simulated Log 2,simulated,0.0013704716487139286
+baseline,f_score_imts,Simulated Log 20,simulated,0.008571745424990127
+baseline,f_score_imts,Simulated Log 22,simulated,0.0016255296148783925
+baseline,f_score_imts,Simulated Log 23,simulated,0.0012266425119038422
+baseline,f_score_imts,Simulated Log 24,simulated,0.001035935845314693
+baseline,f_score_imts,Simulated Log 27,simulated,0.05187321145132966
+baseline,f_score_imts,Simulated Log 28,simulated,0.00012066121586838116
+baseline,f_score_imts,Simulated Log 3,simulated,0.008841340094897438
+baseline,f_score_imts,Simulated Log 30,simulated,0.06828109282322953
+baseline,f_score_imts,Simulated Log 34,simulated,0.028683258760862595
+baseline,f_score_imts,Simulated Log 4,simulated,0.020346768764281962
+baseline,f_score_imts,Simulated Log 40,simulated,0.00348851581536062
+baseline,f_score_imts,Simulated Log 42,simulated,0.00039663259376944687
+baseline,f_score_imts,Simulated Log 5,simulated,0.006585898482054112
+baseline,f_score_imts,Simulated Log 7,simulated,0.0008955556399777239
+baseline,f_score_imts,Simulated Log 8,simulated,0.005117762228396432
+baseline,f_score_imts,Simulated Log 9,simulated,0.007037908183445667
+baseline,f_score_imto,BPIC 12 A,real_life,0.37082616932709506
+baseline,f_score_imto,BPIC 12 W,real_life,0.0026894474066928983
+baseline,f_score_imto,BPIC 13 Closed Problems,real_life,0.0101498687119843
+baseline,f_score_imto,BPIC 17 Offer,real_life,0.14325094889853449
+baseline,f_score_imto,BPIC 19 2-way Match,real_life,0.0010041883910581213
+baseline,f_score_imto,BPIC 19 Consignment,real_life,7.10303719015741e-05
+baseline,f_score_imto,BPIC 20 Domestic Declarations,real_life,0.01581336679852725
+baseline,f_score_imto,BPIC 20 International Declarations,real_life,0.11774783342757937
+baseline,f_score_imto,BPIC 20 Permit Log,real_life,0.3324109138228793
+baseline,f_score_imto,BPIC 20 Prepaid Travel Cost,real_life,0.017336662289723394
+baseline,f_score_imto,BPIC 20 Request For Payment,real_life,0.012612825954875196
+baseline,f_score_imto,Berlin Lawmaking,real_life,0.008048402349920523
+baseline,f_score_imto,Helpdesk,real_life,0.03290756507226551
+baseline,f_score_imto,Hospital Billing,real_life,0.12344355579323536
+baseline,f_score_imto,WABO Receipt Phase,real_life,0.03849537799622213
+baseline,f_score_imto,Synthetic Log 1,synthetic,0.0012813360262026077
+baseline,f_score_imto,Synthetic Log 10,synthetic,0.006731708868693075
+baseline,f_score_imto,Synthetic Log 12,synthetic,1.575681668721713e-05
+baseline,f_score_imto,Synthetic Log 13,synthetic,0.032094619364200404
+baseline,f_score_imto,Synthetic Log 14,synthetic,0.007957451987714302
+baseline,f_score_imto,Synthetic Log 15,synthetic,0.003881054812856386
+baseline,f_score_imto,Synthetic Log 16,synthetic,3.3113834758567595e-06
+baseline,f_score_imto,Synthetic Log 17,synthetic,0.0008893490122837099
+baseline,f_score_imto,Synthetic Log 19,synthetic,0.012096895368027995
+baseline,f_score_imto,Synthetic Log 2,synthetic,3.3113834758567595e-06
+baseline,f_score_imto,Synthetic Log 20,synthetic,0.033707940460886904
+baseline,f_score_imto,Synthetic Log 21,synthetic,0.0011453565636049478
+baseline,f_score_imto,Synthetic Log 3,synthetic,2.520944788174533e-07
+baseline,f_score_imto,Synthetic Log 5,synthetic,0.01741496497767574
+baseline,f_score_imto,Synthetic Log 6,synthetic,3.3113834758567595e-06
+baseline,f_score_imto,Synthetic Log 7,synthetic,3.3113834758567595e-06
+baseline,f_score_imto,Synthetic Log 8,synthetic,7.644941923859123e-05
+baseline,f_score_imto,Synthetic Log 9,synthetic,3.3113834758567595e-06
+baseline,f_score_imto,Simulated Log 1,simulated,0.0010674267568838035
+baseline,f_score_imto,Simulated Log 11,simulated,0.020482088652854825
+baseline,f_score_imto,Simulated Log 12,simulated,0.00231961292002985
+baseline,f_score_imto,Simulated Log 14,simulated,0.006944816045738364
+baseline,f_score_imto,Simulated Log 16,simulated,0.03533734303832106
+baseline,f_score_imto,Simulated Log 17,simulated,2.847554745140518e-05
+baseline,f_score_imto,Simulated Log 18,simulated,0.0066369381423696736
+baseline,f_score_imto,Simulated Log 2,simulated,0.11356772017554864
+baseline,f_score_imto,Simulated Log 20,simulated,0.0007239305821587068
+baseline,f_score_imto,Simulated Log 22,simulated,0.008377145558470687
+baseline,f_score_imto,Simulated Log 23,simulated,3.010933166600455e-05
+baseline,f_score_imto,Simulated Log 24,simulated,0.002373769516380964
+baseline,f_score_imto,Simulated Log 27,simulated,0.0069142165928417045
+baseline,f_score_imto,Simulated Log 28,simulated,0.01786973068055451
+baseline,f_score_imto,Simulated Log 3,simulated,0.0228306715643261
+baseline,f_score_imto,Simulated Log 30,simulated,0.04839187891207804
+baseline,f_score_imto,Simulated Log 34,simulated,0.00329449796440766
+baseline,f_score_imto,Simulated Log 4,simulated,0.00015721789759023897
+baseline,f_score_imto,Simulated Log 40,simulated,0.010428783750512345
+baseline,f_score_imto,Simulated Log 42,simulated,0.0014159559256102705
+baseline,f_score_imto,Simulated Log 5,simulated,0.004202172012753253
+baseline,f_score_imto,Simulated Log 7,simulated,0.002711667898372602
+baseline,f_score_imto,Simulated Log 8,simulated,0.0015268208840824205
+baseline,f_score_imto,Simulated Log 9,simulated,0.005660326726649025
+baseline,f_score_imftf,BPIC 12 A,real_life,0.10037244922447074
+baseline,f_score_imftf,BPIC 12 W,real_life,0.10900066700856409
+baseline,f_score_imftf,BPIC 13 Closed Problems,real_life,0.009811574959365079
+baseline,f_score_imftf,BPIC 17 Offer,real_life,0.041704078901544026
+baseline,f_score_imftf,BPIC 19 2-way Match,real_life,0.03356215212379517
+baseline,f_score_imftf,BPIC 19 Consignment,real_life,0.005062957903774561
+baseline,f_score_imftf,BPIC 20 Domestic Declarations,real_life,0.0009501100394652888
+baseline,f_score_imftf,BPIC 20 International Declarations,real_life,0.3318324844412463
+baseline,f_score_imftf,BPIC 20 Permit Log,real_life,0.07438276644189942
+baseline,f_score_imftf,BPIC 20 Prepaid Travel Cost,real_life,0.024580751974014835
+baseline,f_score_imftf,BPIC 20 Request For Payment,real_life,0.026438944084264195
+baseline,f_score_imftf,Berlin Lawmaking,real_life,0.006329285955608392
+baseline,f_score_imftf,Helpdesk,real_life,2.315084800431422e-05
+baseline,f_score_imftf,Hospital Billing,real_life,0.004154985305940373
+baseline,f_score_imftf,WABO Receipt Phase,real_life,0.05630164940655124
+baseline,f_score_imftf,Synthetic Log 1,synthetic,0.00033805590274883324
+baseline,f_score_imftf,Synthetic Log 10,synthetic,0.0015274525775836206
+baseline,f_score_imftf,Synthetic Log 12,synthetic,3.616766540761567e-05
+baseline,f_score_imftf,Synthetic Log 13,synthetic,0.05075600217055177
+baseline,f_score_imftf,Synthetic Log 14,synthetic,0.010094152375831281
+baseline,f_score_imftf,Synthetic Log 15,synthetic,0.03919190658977202
+baseline,f_score_imftf,Synthetic Log 16,synthetic,0.000492385467120246
+baseline,f_score_imftf,Synthetic Log 17,synthetic,0.0007722173910950276
+baseline,f_score_imftf,Synthetic Log 19,synthetic,0.014604416237986988
+baseline,f_score_imftf,Synthetic Log 2,synthetic,0.000492385467120246
+baseline,f_score_imftf,Synthetic Log 20,synthetic,0.053675885077165496
+baseline,f_score_imftf,Synthetic Log 21,synthetic,0.0016371051079901683
+baseline,f_score_imftf,Synthetic Log 3,synthetic,2.129649076575618e-05
+baseline,f_score_imftf,Synthetic Log 5,synthetic,0.00022229506599146423
+baseline,f_score_imftf,Synthetic Log 6,synthetic,0.000492385467120246
+baseline,f_score_imftf,Synthetic Log 7,synthetic,0.000492385467120246
+baseline,f_score_imftf,Synthetic Log 8,synthetic,0.0005195391982179831
+baseline,f_score_imftf,Synthetic Log 9,synthetic,0.000492385467120246
+baseline,f_score_imftf,Simulated Log 1,simulated,0.0024386722275202524
+baseline,f_score_imftf,Simulated Log 11,simulated,9.499149230273899e-05
+baseline,f_score_imftf,Simulated Log 12,simulated,0.015324187880945602
+baseline,f_score_imftf,Simulated Log 14,simulated,0.008279991936417243
+baseline,f_score_imftf,Simulated Log 16,simulated,0.352626739620552
+baseline,f_score_imftf,Simulated Log 17,simulated,0.001048738395000924
+baseline,f_score_imftf,Simulated Log 18,simulated,0.011486232055813426
+baseline,f_score_imftf,Simulated Log 2,simulated,0.00839222118146854
+baseline,f_score_imftf,Simulated Log 20,simulated,0.0018306366848791094
+baseline,f_score_imftf,Simulated Log 22,simulated,0.002809376968066576
+baseline,f_score_imftf,Simulated Log 23,simulated,6.0623261024796055e-05
+baseline,f_score_imftf,Simulated Log 24,simulated,0.021057063582028274
+baseline,f_score_imftf,Simulated Log 27,simulated,0.015471216510316283
+baseline,f_score_imftf,Simulated Log 28,simulated,0.00025503286832743836
+baseline,f_score_imftf,Simulated Log 3,simulated,0.008005751810986953
+baseline,f_score_imftf,Simulated Log 30,simulated,0.041680879039703245
+baseline,f_score_imftf,Simulated Log 34,simulated,0.009305169258833401
+baseline,f_score_imftf,Simulated Log 4,simulated,0.0034429816501346613
+baseline,f_score_imftf,Simulated Log 40,simulated,0.005174233373317401
+baseline,f_score_imftf,Simulated Log 42,simulated,0.0013557252779908971
+baseline,f_score_imftf,Simulated Log 5,simulated,0.0017195389789013413
+baseline,f_score_imftf,Simulated Log 7,simulated,0.0018855062974152735
+baseline,f_score_imftf,Simulated Log 8,simulated,0.011549402152165917
+baseline,f_score_imftf,Simulated Log 9,simulated,0.004496804839265795
+baseline,f_score_imfts,BPIC 12 A,real_life,0.3079604139102755
+baseline,f_score_imfts,BPIC 12 W,real_life,0.0014690914194428184
+baseline,f_score_imfts,BPIC 13 Closed Problems,real_life,0.0001325286016753932
+baseline,f_score_imfts,BPIC 17 Offer,real_life,0.017186825314594645
+baseline,f_score_imfts,BPIC 19 2-way Match,real_life,0.02069213209781309
+baseline,f_score_imfts,BPIC 19 Consignment,real_life,0.010579760643676224
+baseline,f_score_imfts,BPIC 20 Domestic Declarations,real_life,0.00543138965469355
+baseline,f_score_imfts,BPIC 20 International Declarations,real_life,0.09879160929672612
+baseline,f_score_imfts,BPIC 20 Permit Log,real_life,0.050123913356841854
+baseline,f_score_imfts,BPIC 20 Prepaid Travel Cost,real_life,0.012535409096256132
+baseline,f_score_imfts,BPIC 20 Request For Payment,real_life,0.005129510886349261
+baseline,f_score_imfts,Berlin Lawmaking,real_life,0.004771077937649466
+baseline,f_score_imfts,Helpdesk,real_life,0.01871887143295136
+baseline,f_score_imfts,Hospital Billing,real_life,0.13348230685832332
+baseline,f_score_imfts,WABO Receipt Phase,real_life,2.213823999460956e-05
+baseline,f_score_imfts,Synthetic Log 1,synthetic,0.013754407825713905
+baseline,f_score_imfts,Synthetic Log 10,synthetic,0.0015018836581342503
+baseline,f_score_imfts,Synthetic Log 12,synthetic,0.0013610222949537048
+baseline,f_score_imfts,Synthetic Log 13,synthetic,0.020066622575175122
+baseline,f_score_imfts,Synthetic Log 14,synthetic,0.002245747571137666
+baseline,f_score_imfts,Synthetic Log 15,synthetic,0.13006679429555149
+baseline,f_score_imfts,Synthetic Log 16,synthetic,0.005994515026891814
+baseline,f_score_imfts,Synthetic Log 17,synthetic,3.0010342121924407e-05
+baseline,f_score_imfts,Synthetic Log 19,synthetic,0.004450096327106946
+baseline,f_score_imfts,Synthetic Log 2,synthetic,0.005994515026891814
+baseline,f_score_imfts,Synthetic Log 20,synthetic,0.01821229678076893
+baseline,f_score_imfts,Synthetic Log 21,synthetic,0.04969923133534656
+baseline,f_score_imfts,Synthetic Log 3,synthetic,0.0015056137525159272
+baseline,f_score_imfts,Synthetic Log 5,synthetic,0.0020654154525987754
+baseline,f_score_imfts,Synthetic Log 6,synthetic,0.005994515026891814
+baseline,f_score_imfts,Synthetic Log 7,synthetic,0.005994515026891814
+baseline,f_score_imfts,Synthetic Log 8,synthetic,0.0006030694246904559
+baseline,f_score_imfts,Synthetic Log 9,synthetic,0.005994515026891814
+baseline,f_score_imfts,Simulated Log 1,simulated,0.005199320603648786
+baseline,f_score_imfts,Simulated Log 11,simulated,0.0013302319854525035
+baseline,f_score_imfts,Simulated Log 12,simulated,1.2844815308490701e-05
+baseline,f_score_imfts,Simulated Log 14,simulated,0.034305607039135634
+baseline,f_score_imfts,Simulated Log 16,simulated,0.0013567453384096945
+baseline,f_score_imfts,Simulated Log 17,simulated,0.0004915390428815585
+baseline,f_score_imfts,Simulated Log 18,simulated,0.054625917221322914
+baseline,f_score_imfts,Simulated Log 2,simulated,0.0004962659160999998
+baseline,f_score_imfts,Simulated Log 20,simulated,0.006698025192124803
+baseline,f_score_imfts,Simulated Log 22,simulated,0.00192075513173055
+baseline,f_score_imfts,Simulated Log 23,simulated,0.002688945046945005
+baseline,f_score_imfts,Simulated Log 24,simulated,0.00013299342171802766
+baseline,f_score_imfts,Simulated Log 27,simulated,0.04889283794929715
+baseline,f_score_imfts,Simulated Log 28,simulated,0.0001036675481759403
+baseline,f_score_imfts,Simulated Log 3,simulated,0.012526557529737085
+baseline,f_score_imfts,Simulated Log 30,simulated,0.09949341983765625
+baseline,f_score_imfts,Simulated Log 34,simulated,0.04723302805137427
+baseline,f_score_imfts,Simulated Log 4,simulated,0.032191526097061704
+baseline,f_score_imfts,Simulated Log 40,simulated,0.0033277686445225933
+baseline,f_score_imfts,Simulated Log 42,simulated,0.0010704119317627712
+baseline,f_score_imfts,Simulated Log 5,simulated,0.0012206030412545657
+baseline,f_score_imfts,Simulated Log 7,simulated,0.001955473385883395
+baseline,f_score_imfts,Simulated Log 8,simulated,0.00959944202041748
+baseline,f_score_imfts,Simulated Log 9,simulated,0.011000384482514567
+baseline,f_score_imfto,BPIC 12 A,real_life,0.11034378566782972
+baseline,f_score_imfto,BPIC 12 W,real_life,0.07242135336257668
+baseline,f_score_imfto,BPIC 13 Closed Problems,real_life,0.001997185054726765
+baseline,f_score_imfto,BPIC 17 Offer,real_life,0.12341991843337238
+baseline,f_score_imfto,BPIC 19 2-way Match,real_life,0.01382929090045202
+baseline,f_score_imfto,BPIC 19 Consignment,real_life,0.010546832177632793
+baseline,f_score_imfto,BPIC 20 Domestic Declarations,real_life,0.0002477427989623752
+baseline,f_score_imfto,BPIC 20 International Declarations,real_life,0.0748019178809703
+baseline,f_score_imfto,BPIC 20 Permit Log,real_life,0.1130641906037604
+baseline,f_score_imfto,BPIC 20 Prepaid Travel Cost,real_life,0.0042391719786225275
+baseline,f_score_imfto,BPIC 20 Request For Payment,real_life,0.008405285814937971
+baseline,f_score_imfto,Berlin Lawmaking,real_life,3.256631978138929e-05
+baseline,f_score_imfto,Helpdesk,real_life,9.031848160689121e-07
+baseline,f_score_imfto,Hospital Billing,real_life,0.13048925017829524
+baseline,f_score_imfto,WABO Receipt Phase,real_life,0.028355506050854073
+baseline,f_score_imfto,Synthetic Log 1,synthetic,0.00029482972914302583
+baseline,f_score_imfto,Synthetic Log 10,synthetic,0.006291461614830407
+baseline,f_score_imfto,Synthetic Log 12,synthetic,8.018676047504766e-05
+baseline,f_score_imfto,Synthetic Log 13,synthetic,0.05500556707963495
+baseline,f_score_imfto,Synthetic Log 14,synthetic,0.006599076719783983
+baseline,f_score_imfto,Synthetic Log 15,synthetic,0.0003540265273885182
+baseline,f_score_imfto,Synthetic Log 16,synthetic,0.0005874308710817595
+baseline,f_score_imfto,Synthetic Log 17,synthetic,0.0007724494555390487
+baseline,f_score_imfto,Synthetic Log 19,synthetic,0.027105595183606897
+baseline,f_score_imfto,Synthetic Log 2,synthetic,0.0005874308710817595
+baseline,f_score_imfto,Synthetic Log 20,synthetic,0.05915080211759403
+baseline,f_score_imfto,Synthetic Log 21,synthetic,0.0006690908499414299
+baseline,f_score_imfto,Synthetic Log 3,synthetic,7.556754146376585e-07
+baseline,f_score_imfto,Synthetic Log 5,synthetic,0.0006300049119529095
+baseline,f_score_imfto,Synthetic Log 6,synthetic,0.0005874308710817595
+baseline,f_score_imfto,Synthetic Log 7,synthetic,0.0005874308710817595
+baseline,f_score_imfto,Synthetic Log 8,synthetic,2.5693764907085563e-05
+baseline,f_score_imfto,Synthetic Log 9,synthetic,0.0005874308710817595
+baseline,f_score_imfto,Simulated Log 1,simulated,3.10862243998043e-05
+baseline,f_score_imfto,Simulated Log 11,simulated,0.014335350470895097
+baseline,f_score_imfto,Simulated Log 12,simulated,0.0065122531229545606
+baseline,f_score_imfto,Simulated Log 14,simulated,0.0024591229964841042
+baseline,f_score_imfto,Simulated Log 16,simulated,0.16831680666027043
+baseline,f_score_imfto,Simulated Log 17,simulated,9.024529290195616e-06
+baseline,f_score_imfto,Simulated Log 18,simulated,0.030961394466944684
+baseline,f_score_imfto,Simulated Log 2,simulated,0.19600206175443116
+baseline,f_score_imfto,Simulated Log 20,simulated,0.008609087258789302
+baseline,f_score_imfto,Simulated Log 22,simulated,0.007375217749125711
+baseline,f_score_imfto,Simulated Log 23,simulated,0.0017625793889381111
+baseline,f_score_imfto,Simulated Log 24,simulated,0.010456229713403344
+baseline,f_score_imfto,Simulated Log 27,simulated,0.007070639512927686
+baseline,f_score_imfto,Simulated Log 28,simulated,0.009084130697653353
+baseline,f_score_imfto,Simulated Log 3,simulated,0.03962285902256929
+baseline,f_score_imfto,Simulated Log 30,simulated,0.021668776617063932
+baseline,f_score_imfto,Simulated Log 34,simulated,6.0683895087699265e-06
+baseline,f_score_imfto,Simulated Log 4,simulated,0.003969198308033824
+baseline,f_score_imfto,Simulated Log 40,simulated,0.004616626959352511
+baseline,f_score_imfto,Simulated Log 42,simulated,0.004006447542720504
+baseline,f_score_imfto,Simulated Log 5,simulated,0.004044615740889637
+baseline,f_score_imfto,Simulated Log 7,simulated,0.0030936277034181612
+baseline,f_score_imfto,Simulated Log 8,simulated,0.0032834530717685967
+baseline,f_score_imfto,Simulated Log 9,simulated,0.0003009970366110652
+translucent,f_score_imtf,BPIC 12 A,real_life,0.4337684334994975
+translucent,f_score_imtf,BPIC 12 W,real_life,0.011859406156763638
+translucent,f_score_imtf,BPIC 13 Closed Problems,real_life,0.0004150109559799554
+translucent,f_score_imtf,BPIC 17 Offer,real_life,0.0010729425422973556
+translucent,f_score_imtf,BPIC 19 2-way Match,real_life,0.0003193648252816452
+translucent,f_score_imtf,BPIC 19 Consignment,real_life,0.004291768045061026
+translucent,f_score_imtf,BPIC 20 Domestic Declarations,real_life,0.004110744229852451
+translucent,f_score_imtf,BPIC 20 International Declarations,real_life,0.03584140696696838
+translucent,f_score_imtf,BPIC 20 Permit Log,real_life,0.0019342974199959902
+translucent,f_score_imtf,BPIC 20 Prepaid Travel Cost,real_life,0.006530486695186436
+translucent,f_score_imtf,BPIC 20 Request For Payment,real_life,0.0031987370701752832
+translucent,f_score_imtf,Berlin Lawmaking,real_life,0.02441673468332045
+translucent,f_score_imtf,Helpdesk,real_life,0.006447124558364692
+translucent,f_score_imtf,Hospital Billing,real_life,0.0021482909218957613
+translucent,f_score_imtf,WABO Receipt Phase,real_life,0.04581096268772923
+translucent,f_score_imtf,Synthetic Log 1,synthetic,0.0018767838327807462
+translucent,f_score_imtf,Synthetic Log 10,synthetic,2.882099858389599e-06
+translucent,f_score_imtf,Synthetic Log 12,synthetic,0.001008105133025071
+translucent,f_score_imtf,Synthetic Log 13,synthetic,0.018446393454667264
+translucent,f_score_imtf,Synthetic Log 14,synthetic,0.011521922331264546
+translucent,f_score_imtf,Synthetic Log 15,synthetic,3.7967998468053112
+translucent,f_score_imtf,Synthetic Log 16,synthetic,6.464507253124806e-05
+translucent,f_score_imtf,Synthetic Log 17,synthetic,0.0029076197736584773
+translucent,f_score_imtf,Synthetic Log 19,synthetic,0.013675107232423768
+translucent,f_score_imtf,Synthetic Log 2,synthetic,6.464507253124806e-05
+translucent,f_score_imtf,Synthetic Log 20,synthetic,0.023881535693630142
+translucent,f_score_imtf,Synthetic Log 21,synthetic,0.002418010268057938
+translucent,f_score_imtf,Synthetic Log 3,synthetic,0.0021415747417172486
+translucent,f_score_imtf,Synthetic Log 5,synthetic,0.013826610600876827
+translucent,f_score_imtf,Synthetic Log 6,synthetic,6.464507253124806e-05
+translucent,f_score_imtf,Synthetic Log 7,synthetic,6.464507253124806e-05
+translucent,f_score_imtf,Synthetic Log 8,synthetic,0.002875226295636642
+translucent,f_score_imtf,Synthetic Log 9,synthetic,6.464507253124806e-05
+translucent,f_score_imtf,Simulated Log 1,simulated,0.005573720028646313
+translucent,f_score_imtf,Simulated Log 11,simulated,0.0013158099345734677
+translucent,f_score_imtf,Simulated Log 12,simulated,0.050222263722426816
+translucent,f_score_imtf,Simulated Log 14,simulated,0.014285313382440644
+translucent,f_score_imtf,Simulated Log 16,simulated,0.030940820226102728
+translucent,f_score_imtf,Simulated Log 17,simulated,0.009065330723780183
+translucent,f_score_imtf,Simulated Log 18,simulated,0.04961676007511711
+translucent,f_score_imtf,Simulated Log 2,simulated,0.012115004862951955
+translucent,f_score_imtf,Simulated Log 20,simulated,0.008112485397367065
+translucent,f_score_imtf,Simulated Log 22,simulated,0.004963503355496256
+translucent,f_score_imtf,Simulated Log 23,simulated,0.0015293276468844677
+translucent,f_score_imtf,Simulated Log 24,simulated,0.01218003576756034
+translucent,f_score_imtf,Simulated Log 27,simulated,0.018601432593656524
+translucent,f_score_imtf,Simulated Log 28,simulated,0.0023852850793018273
+translucent,f_score_imtf,Simulated Log 3,simulated,0.014667746138201748
+translucent,f_score_imtf,Simulated Log 30,simulated,0.05143715053087301
+translucent,f_score_imtf,Simulated Log 34,simulated,0.002065090112953019
+translucent,f_score_imtf,Simulated Log 4,simulated,0.04944235976066284
+translucent,f_score_imtf,Simulated Log 40,simulated,0.005366578738952312
+translucent,f_score_imtf,Simulated Log 42,simulated,0.0010843091896686557
+translucent,f_score_imtf,Simulated Log 5,simulated,0.010688977473633671
+translucent,f_score_imtf,Simulated Log 7,simulated,0.0029786263353654557
+translucent,f_score_imtf,Simulated Log 8,simulated,0.00038758410637130874
+translucent,f_score_imtf,Simulated Log 9,simulated,0.019485799950390462
+translucent,f_score_imts,BPIC 12 A,real_life,0.6489825017547088
+translucent,f_score_imts,BPIC 12 W,real_life,0.010160216316860633
+translucent,f_score_imts,BPIC 13 Closed Problems,real_life,0.0001559378875455682
+translucent,f_score_imts,BPIC 17 Offer,real_life,0.0019117662669668836
+translucent,f_score_imts,BPIC 19 2-way Match,real_life,0.006702185736799469
+translucent,f_score_imts,BPIC 19 Consignment,real_life,0.0011843505435588744
+translucent,f_score_imts,BPIC 20 Domestic Declarations,real_life,0.0007021472104321131
+translucent,f_score_imts,BPIC 20 International Declarations,real_life,0.0096685915367833
+translucent,f_score_imts,BPIC 20 Permit Log,real_life,0.05268642171450719
+translucent,f_score_imts,BPIC 20 Prepaid Travel Cost,real_life,0.0014756039731978585
+translucent,f_score_imts,BPIC 20 Request For Payment,real_life,0.0007779822626304306
+translucent,f_score_imts,Berlin Lawmaking,real_life,0.0021097896379517916
+translucent,f_score_imts,Helpdesk,real_life,0.003296511983153431
+translucent,f_score_imts,Hospital Billing,real_life,0.0005998155381373486
+translucent,f_score_imts,WABO Receipt Phase,real_life,0.13974994820164396
+translucent,f_score_imts,Synthetic Log 1,synthetic,0.015280876606132695
+translucent,f_score_imts,Synthetic Log 10,synthetic,5.091388829548981e-05
+translucent,f_score_imts,Synthetic Log 12,synthetic,0.0005420317378047397
+translucent,f_score_imts,Synthetic Log 13,synthetic,0.004003004818504811
+translucent,f_score_imts,Synthetic Log 14,synthetic,0.01031432415982259
+translucent,f_score_imts,Synthetic Log 15,synthetic,0.07343777517257431
+translucent,f_score_imts,Synthetic Log 16,synthetic,0.0002682532523688604
+translucent,f_score_imts,Synthetic Log 17,synthetic,0.0017828301151492732
+translucent,f_score_imts,Synthetic Log 19,synthetic,0.0097420740232243
+translucent,f_score_imts,Synthetic Log 2,synthetic,0.0002682532523688604
+translucent,f_score_imts,Synthetic Log 20,synthetic,0.008138992533110784
+translucent,f_score_imts,Synthetic Log 21,synthetic,3.235770331203009e-05
+translucent,f_score_imts,Synthetic Log 3,synthetic,9.82952575297478e-05
+translucent,f_score_imts,Synthetic Log 5,synthetic,0.0017557580876651174
+translucent,f_score_imts,Synthetic Log 6,synthetic,0.0002682532523688604
+translucent,f_score_imts,Synthetic Log 7,synthetic,0.0002682532523688604
+translucent,f_score_imts,Synthetic Log 8,synthetic,0.0020182170527212116
+translucent,f_score_imts,Synthetic Log 9,synthetic,0.0002682532523688604
+translucent,f_score_imts,Simulated Log 1,simulated,0.002789120393054187
+translucent,f_score_imts,Simulated Log 11,simulated,0.0025643914463546725
+translucent,f_score_imts,Simulated Log 12,simulated,0.050419162607824884
+translucent,f_score_imts,Simulated Log 14,simulated,0.013346846485503789
+translucent,f_score_imts,Simulated Log 16,simulated,0.01297999239316165
+translucent,f_score_imts,Simulated Log 17,simulated,0.012207635668552642
+translucent,f_score_imts,Simulated Log 18,simulated,0.06900027416809107
+translucent,f_score_imts,Simulated Log 2,simulated,0.018675196807202896
+translucent,f_score_imts,Simulated Log 20,simulated,0.009187378192250918
+translucent,f_score_imts,Simulated Log 22,simulated,0.0025970848927735495
+translucent,f_score_imts,Simulated Log 23,simulated,1.1893582328224454e-05
+translucent,f_score_imts,Simulated Log 24,simulated,0.00036560774669237937
+translucent,f_score_imts,Simulated Log 27,simulated,0.04827743521187957
+translucent,f_score_imts,Simulated Log 28,simulated,3.257554820562077e-05
+translucent,f_score_imts,Simulated Log 3,simulated,0.0020438313049782495
+translucent,f_score_imts,Simulated Log 30,simulated,0.06683332513284013
+translucent,f_score_imts,Simulated Log 34,simulated,0.00396733668829276
+translucent,f_score_imts,Simulated Log 4,simulated,2.1150042378846416e-05
+translucent,f_score_imts,Simulated Log 40,simulated,0.010838127183041616
+translucent,f_score_imts,Simulated Log 42,simulated,0.0002538257614039218
+translucent,f_score_imts,Simulated Log 5,simulated,6.609267783780826e-06
+translucent,f_score_imts,Simulated Log 7,simulated,0.0026643375023813454
+translucent,f_score_imts,Simulated Log 8,simulated,0.0014684190077337209
+translucent,f_score_imts,Simulated Log 9,simulated,1.2122282474443457e-05
+translucent,f_score_imto,BPIC 12 A,real_life,0.6136587590382494
+translucent,f_score_imto,BPIC 12 W,real_life,0.01074802726839386
+translucent,f_score_imto,BPIC 13 Closed Problems,real_life,5.126348544351218e-07
+translucent,f_score_imto,BPIC 17 Offer,real_life,0.0012956499905796776
+translucent,f_score_imto,BPIC 19 2-way Match,real_life,9.397848067371823e-06
+translucent,f_score_imto,BPIC 19 Consignment,real_life,0.0003511722959363656
+translucent,f_score_imto,BPIC 20 Domestic Declarations,real_life,0.0041132850724513274
+translucent,f_score_imto,BPIC 20 International Declarations,real_life,0.03737466619178197
+translucent,f_score_imto,BPIC 20 Permit Log,real_life,0.16240853277477454
+translucent,f_score_imto,BPIC 20 Prepaid Travel Cost,real_life,0.007316989636105322
+translucent,f_score_imto,BPIC 20 Request For Payment,real_life,0.0035040193062009515
+translucent,f_score_imto,Berlin Lawmaking,real_life,0.007086357003139563
+translucent,f_score_imto,Helpdesk,real_life,0.0132184477027491
+translucent,f_score_imto,Hospital Billing,real_life,0.025055229157716845
+translucent,f_score_imto,WABO Receipt Phase,real_life,0.016373378916080986
+translucent,f_score_imto,Synthetic Log 1,synthetic,9.541478271338699e-06
+translucent,f_score_imto,Synthetic Log 10,synthetic,0.0005178395680028347
+translucent,f_score_imto,Synthetic Log 12,synthetic,3.815481825649063e-06
+translucent,f_score_imto,Synthetic Log 13,synthetic,0.023697328477050427
+translucent,f_score_imto,Synthetic Log 14,synthetic,0.012423041810945805
+translucent,f_score_imto,Synthetic Log 15,synthetic,0.037034154638555764
+translucent,f_score_imto,Synthetic Log 16,synthetic,9.575074351552056e-06
+translucent,f_score_imto,Synthetic Log 17,synthetic,0.0036386396753030513
+translucent,f_score_imto,Synthetic Log 19,synthetic,0.021590181725930087
+translucent,f_score_imto,Synthetic Log 2,synthetic,9.575074351552056e-06
+translucent,f_score_imto,Synthetic Log 20,synthetic,0.03434453354826151
+translucent,f_score_imto,Synthetic Log 21,synthetic,0.026495210548343886
+translucent,f_score_imto,Synthetic Log 3,synthetic,0.0018770475739512415
+translucent,f_score_imto,Synthetic Log 5,synthetic,0.009770445661391536
+translucent,f_score_imto,Synthetic Log 6,synthetic,9.575074351552056e-06
+translucent,f_score_imto,Synthetic Log 7,synthetic,9.575074351552056e-06
+translucent,f_score_imto,Synthetic Log 8,synthetic,0.0035153653859097862
+translucent,f_score_imto,Synthetic Log 9,synthetic,9.575074351552056e-06
+translucent,f_score_imto,Simulated Log 1,simulated,0.0006295388911118757
+translucent,f_score_imto,Simulated Log 11,simulated,0.005173008469340945
+translucent,f_score_imto,Simulated Log 12,simulated,0.04704141693030497
+translucent,f_score_imto,Simulated Log 14,simulated,0.004777510674187288
+translucent,f_score_imto,Simulated Log 16,simulated,0.027055176259645933
+translucent,f_score_imto,Simulated Log 17,simulated,0.008398147716438521
+translucent,f_score_imto,Simulated Log 18,simulated,0.024397047955277508
+translucent,f_score_imto,Simulated Log 2,simulated,0.01598364604985986
+translucent,f_score_imto,Simulated Log 20,simulated,0.0011581661277467532
+translucent,f_score_imto,Simulated Log 22,simulated,0.004183768306124475
+translucent,f_score_imto,Simulated Log 23,simulated,0.00017980839664491187
+translucent,f_score_imto,Simulated Log 24,simulated,0.002064655122490504
+translucent,f_score_imto,Simulated Log 27,simulated,0.0020267713241778926
+translucent,f_score_imto,Simulated Log 28,simulated,0.012258031922149162
+translucent,f_score_imto,Simulated Log 3,simulated,0.022571728459158193
+translucent,f_score_imto,Simulated Log 30,simulated,0.022879451386489925
+translucent,f_score_imto,Simulated Log 34,simulated,0.022870769201828244
+translucent,f_score_imto,Simulated Log 4,simulated,0.00917565248479613
+translucent,f_score_imto,Simulated Log 40,simulated,0.009285437220952692
+translucent,f_score_imto,Simulated Log 42,simulated,0.0005596782963896444
+translucent,f_score_imto,Simulated Log 5,simulated,0.015337302749701862
+translucent,f_score_imto,Simulated Log 7,simulated,0.0002600009135661014
+translucent,f_score_imto,Simulated Log 8,simulated,0.00022257252257908413
+translucent,f_score_imto,Simulated Log 9,simulated,0.04816302887183298
+translucent,f_score_imftf,BPIC 12 A,real_life,0.32912136328271957
+translucent,f_score_imftf,BPIC 12 W,real_life,0.006506804278680752
+translucent,f_score_imftf,BPIC 13 Closed Problems,real_life,0.0036599042051056645
+translucent,f_score_imftf,BPIC 17 Offer,real_life,0.01142398769402296
+translucent,f_score_imftf,BPIC 19 2-way Match,real_life,0.0008910774923949811
+translucent,f_score_imftf,BPIC 19 Consignment,real_life,0.001023386950838872
+translucent,f_score_imftf,BPIC 20 Domestic Declarations,real_life,0.003312585476734409
+translucent,f_score_imftf,BPIC 20 International Declarations,real_life,0.23326260975231802
+translucent,f_score_imftf,BPIC 20 Permit Log,real_life,0.004619784587862256
+translucent,f_score_imftf,BPIC 20 Prepaid Travel Cost,real_life,0.01824976353481869
+translucent,f_score_imftf,BPIC 20 Request For Payment,real_life,0.023731825626647815
+translucent,f_score_imftf,Berlin Lawmaking,real_life,0.0004595134438054872
+translucent,f_score_imftf,Helpdesk,real_life,0.009614785629529313
+translucent,f_score_imftf,Hospital Billing,real_life,0.0006419436006909776
+translucent,f_score_imftf,WABO Receipt Phase,real_life,0.02739656646624633
+translucent,f_score_imftf,Synthetic Log 1,synthetic,0.006675775170822613
+translucent,f_score_imftf,Synthetic Log 10,synthetic,0.0004236920250683096
+translucent,f_score_imftf,Synthetic Log 12,synthetic,0.0002979761946020961
+translucent,f_score_imftf,Synthetic Log 13,synthetic,0.07677576354890368
+translucent,f_score_imftf,Synthetic Log 14,synthetic,0.011665825186240363
+translucent,f_score_imftf,Synthetic Log 15,synthetic,0.08055330162505689
+translucent,f_score_imftf,Synthetic Log 16,synthetic,0.005787900855701136
+translucent,f_score_imftf,Synthetic Log 17,synthetic,0.006647087140344239
+translucent,f_score_imftf,Synthetic Log 19,synthetic,0.03421864033082994
+translucent,f_score_imftf,Synthetic Log 2,synthetic,0.005787900855701136
+translucent,f_score_imftf,Synthetic Log 20,synthetic,0.0825790059498509
+translucent,f_score_imftf,Synthetic Log 21,synthetic,0.00011047372064512532
+translucent,f_score_imftf,Synthetic Log 3,synthetic,0.015031627347875698
+translucent,f_score_imftf,Synthetic Log 5,synthetic,0.003264700831763742
+translucent,f_score_imftf,Synthetic Log 6,synthetic,0.005787900855701136
+translucent,f_score_imftf,Synthetic Log 7,synthetic,0.005787900855701136
+translucent,f_score_imftf,Synthetic Log 8,synthetic,0.005400417930203032
+translucent,f_score_imftf,Synthetic Log 9,synthetic,0.005787900855701136
+translucent,f_score_imftf,Simulated Log 1,simulated,0.00023675156823364763
+translucent,f_score_imftf,Simulated Log 11,simulated,0.0021924808090130663
+translucent,f_score_imftf,Simulated Log 12,simulated,0.026842272971736202
+translucent,f_score_imftf,Simulated Log 14,simulated,0.012119299654445722
+translucent,f_score_imftf,Simulated Log 16,simulated,0.05481028207475898
+translucent,f_score_imftf,Simulated Log 17,simulated,0.0019390630591008063
+translucent,f_score_imftf,Simulated Log 18,simulated,0.04323271214527195
+translucent,f_score_imftf,Simulated Log 2,simulated,0.011034677554684593
+translucent,f_score_imftf,Simulated Log 20,simulated,0.00647734496006351
+translucent,f_score_imftf,Simulated Log 22,simulated,0.0015343958422366845
+translucent,f_score_imftf,Simulated Log 23,simulated,0.0032216388663279093
+translucent,f_score_imftf,Simulated Log 24,simulated,0.0052132128177095425
+translucent,f_score_imftf,Simulated Log 27,simulated,0.01922711634397384
+translucent,f_score_imftf,Simulated Log 28,simulated,0.0012534280527146282
+translucent,f_score_imftf,Simulated Log 3,simulated,0.004726701711764164
+translucent,f_score_imftf,Simulated Log 30,simulated,0.016425119907994463
+translucent,f_score_imftf,Simulated Log 34,simulated,0.0019983646900703714
+translucent,f_score_imftf,Simulated Log 4,simulated,8.745655867905354e-05
+translucent,f_score_imftf,Simulated Log 40,simulated,0.00885708872587847
+translucent,f_score_imftf,Simulated Log 42,simulated,0.0008972098770224085
+translucent,f_score_imftf,Simulated Log 5,simulated,0.00829918839089237
+translucent,f_score_imftf,Simulated Log 7,simulated,0.00649097883036709
+translucent,f_score_imftf,Simulated Log 8,simulated,0.0006315989148760992
+translucent,f_score_imftf,Simulated Log 9,simulated,0.012205470029659828
+translucent,f_score_imfts,BPIC 12 A,real_life,0.2810182705959159
+translucent,f_score_imfts,BPIC 12 W,real_life,0.008365694054367417
+translucent,f_score_imfts,BPIC 13 Closed Problems,real_life,0.002472365531359094
+translucent,f_score_imfts,BPIC 17 Offer,real_life,0.0048717749824884055
+translucent,f_score_imfts,BPIC 19 2-way Match,real_life,0.013161887856280578
+translucent,f_score_imfts,BPIC 19 Consignment,real_life,0.0027285592390051236
+translucent,f_score_imfts,BPIC 20 Domestic Declarations,real_life,0.00027015343883312357
+translucent,f_score_imfts,BPIC 20 International Declarations,real_life,0.009444965927237495
+translucent,f_score_imfts,BPIC 20 Permit Log,real_life,0.06782788897123931
+translucent,f_score_imfts,BPIC 20 Prepaid Travel Cost,real_life,0.0009608244055129613
+translucent,f_score_imfts,BPIC 20 Request For Payment,real_life,0.00035215231329969245
+translucent,f_score_imfts,Berlin Lawmaking,real_life,0.0016683732829361447
+translucent,f_score_imfts,Helpdesk,real_life,0.0031742330714868497
+translucent,f_score_imfts,Hospital Billing,real_life,0.00033488247100073337
+translucent,f_score_imfts,WABO Receipt Phase,real_life,0.0005136108513094487
+translucent,f_score_imfts,Synthetic Log 1,synthetic,0.016200273539321318
+translucent,f_score_imfts,Synthetic Log 10,synthetic,2.8190305414959164e-05
+translucent,f_score_imfts,Synthetic Log 12,synthetic,0.0018211525578130338
+translucent,f_score_imfts,Synthetic Log 13,synthetic,0.0019819133603951483
+translucent,f_score_imfts,Synthetic Log 14,synthetic,0.011220368456254588
+translucent,f_score_imfts,Synthetic Log 15,synthetic,4.76222121630836
+translucent,f_score_imfts,Synthetic Log 16,synthetic,0.0002587820565360782
+translucent,f_score_imfts,Synthetic Log 17,synthetic,0.0006509637351566335
+translucent,f_score_imfts,Synthetic Log 19,synthetic,0.006899208567279842
+translucent,f_score_imfts,Synthetic Log 2,synthetic,0.0002587820565360782
+translucent,f_score_imfts,Synthetic Log 20,synthetic,0.00495430684796203
+translucent,f_score_imfts,Synthetic Log 21,synthetic,0.0014503354593317815
+translucent,f_score_imfts,Synthetic Log 3,synthetic,0.0011733877169021246
+translucent,f_score_imfts,Synthetic Log 5,synthetic,0.0013712993715495952
+translucent,f_score_imfts,Synthetic Log 6,synthetic,0.0002587820565360782
+translucent,f_score_imfts,Synthetic Log 7,synthetic,0.0002587820565360782
+translucent,f_score_imfts,Synthetic Log 8,synthetic,0.0007129299707826844
+translucent,f_score_imfts,Synthetic Log 9,synthetic,0.0002587820565360782
+translucent,f_score_imfts,Simulated Log 1,simulated,0.002889361497528316
+translucent,f_score_imfts,Simulated Log 11,simulated,0.008890661993803946
+translucent,f_score_imfts,Simulated Log 12,simulated,0.05980613975275292
+translucent,f_score_imfts,Simulated Log 14,simulated,0.021601670497214336
+translucent,f_score_imfts,Simulated Log 16,simulated,0.013679940952732653
+translucent,f_score_imfts,Simulated Log 17,simulated,0.012179068388465079
+translucent,f_score_imfts,Simulated Log 18,simulated,0.1129076684584932
+translucent,f_score_imfts,Simulated Log 2,simulated,0.02162199638847186
+translucent,f_score_imfts,Simulated Log 20,simulated,0.008003869732881185
+translucent,f_score_imfts,Simulated Log 22,simulated,0.0021619911392298644
+translucent,f_score_imfts,Simulated Log 23,simulated,0.0003118084039103758
+translucent,f_score_imfts,Simulated Log 24,simulated,0.00023005463186954154
+translucent,f_score_imfts,Simulated Log 27,simulated,0.05000053906088581
+translucent,f_score_imfts,Simulated Log 28,simulated,0.00034873643333756845
+translucent,f_score_imfts,Simulated Log 3,simulated,0.0025442578804800893
+translucent,f_score_imfts,Simulated Log 30,simulated,0.10232617887607103
+translucent,f_score_imfts,Simulated Log 34,simulated,0.016764495945547544
+translucent,f_score_imfts,Simulated Log 4,simulated,1.3263105969860492e-05
+translucent,f_score_imfts,Simulated Log 40,simulated,0.011987107422751999
+translucent,f_score_imfts,Simulated Log 42,simulated,0.0016305724402438614
+translucent,f_score_imfts,Simulated Log 5,simulated,0.017059387708947445
+translucent,f_score_imfts,Simulated Log 7,simulated,0.0012533065195769442
+translucent,f_score_imfts,Simulated Log 8,simulated,0.0031570818250221534
+translucent,f_score_imfts,Simulated Log 9,simulated,0.0005919073216539079
+translucent,f_score_imfto,BPIC 12 A,real_life,0.6479429991171161
+translucent,f_score_imfto,BPIC 12 W,real_life,0.004810169941365937
+translucent,f_score_imfto,BPIC 13 Closed Problems,real_life,0.002504128206734477
+translucent,f_score_imfto,BPIC 17 Offer,real_life,0.005767733853698228
+translucent,f_score_imfto,BPIC 19 2-way Match,real_life,0.00044716453693031103
+translucent,f_score_imfto,BPIC 19 Consignment,real_life,0.0016469272609506854
+translucent,f_score_imfto,BPIC 20 Domestic Declarations,real_life,0.0013880545695754668
+translucent,f_score_imfto,BPIC 20 International Declarations,real_life,0.08977465490983506
+translucent,f_score_imfto,BPIC 20 Permit Log,real_life,0.13906355682979088
+translucent,f_score_imfto,BPIC 20 Prepaid Travel Cost,real_life,0.006110501199491547
+translucent,f_score_imfto,BPIC 20 Request For Payment,real_life,0.011883344679858486
+translucent,f_score_imfto,Berlin Lawmaking,real_life,0.0017561732364339033
+translucent,f_score_imfto,Helpdesk,real_life,0.004461474673752096
+translucent,f_score_imfto,Hospital Billing,real_life,0.01344886903196821
+translucent,f_score_imfto,WABO Receipt Phase,real_life,0.014521662635075358
+translucent,f_score_imfto,Synthetic Log 1,synthetic,0.0018425329062603387
+translucent,f_score_imfto,Synthetic Log 10,synthetic,0.001065393858389154
+translucent,f_score_imfto,Synthetic Log 12,synthetic,5.228126934461469e-06
+translucent,f_score_imfto,Synthetic Log 13,synthetic,0.07383702166367109
+translucent,f_score_imfto,Synthetic Log 14,synthetic,0.012243362786109728
+translucent,f_score_imfto,Synthetic Log 15,synthetic,3.149519156016529
+translucent,f_score_imfto,Synthetic Log 16,synthetic,0.003900471583341582
+translucent,f_score_imfto,Synthetic Log 17,synthetic,0.004253977432120652
+translucent,f_score_imfto,Synthetic Log 19,synthetic,0.04109838460800713
+translucent,f_score_imfto,Synthetic Log 2,synthetic,0.003900471583341582
+translucent,f_score_imfto,Synthetic Log 20,synthetic,0.0911484973641862
+translucent,f_score_imfto,Synthetic Log 21,synthetic,0.017678150947943307
+translucent,f_score_imfto,Synthetic Log 3,synthetic,0.0066606653026932
+translucent,f_score_imfto,Synthetic Log 5,synthetic,0.001163675292846726
+translucent,f_score_imfto,Synthetic Log 6,synthetic,0.003900471583341582
+translucent,f_score_imfto,Synthetic Log 7,synthetic,0.003900471583341582
+translucent,f_score_imfto,Synthetic Log 8,synthetic,0.0029885171794465626
+translucent,f_score_imfto,Synthetic Log 9,synthetic,0.003900471583341582
+translucent,f_score_imfto,Simulated Log 1,simulated,0.0011971675934902325
+translucent,f_score_imfto,Simulated Log 11,simulated,0.0004718551530643119
+translucent,f_score_imfto,Simulated Log 12,simulated,0.028346601545767836
+translucent,f_score_imfto,Simulated Log 14,simulated,0.006227040890802352
+translucent,f_score_imfto,Simulated Log 16,simulated,0.03881456651126781
+translucent,f_score_imfto,Simulated Log 17,simulated,0.008516752205227162
+translucent,f_score_imfto,Simulated Log 18,simulated,0.02902885133682742
+translucent,f_score_imfto,Simulated Log 2,simulated,0.021419089132406494
+translucent,f_score_imfto,Simulated Log 20,simulated,0.011517291795357753
+translucent,f_score_imfto,Simulated Log 22,simulated,0.004848590259371156
+translucent,f_score_imfto,Simulated Log 23,simulated,0.005793940557433412
+translucent,f_score_imfto,Simulated Log 24,simulated,0.0013512347084121271
+translucent,f_score_imfto,Simulated Log 27,simulated,0.004300251854346642
+translucent,f_score_imfto,Simulated Log 28,simulated,0.006074034906654032
+translucent,f_score_imfto,Simulated Log 3,simulated,0.02232121096841048
+translucent,f_score_imfto,Simulated Log 30,simulated,0.005672449627546755
+translucent,f_score_imfto,Simulated Log 34,simulated,0.006743637648081816
+translucent,f_score_imfto,Simulated Log 4,simulated,5.24375230172698e-05
+translucent,f_score_imfto,Simulated Log 40,simulated,0.006658071632691495
+translucent,f_score_imfto,Simulated Log 42,simulated,0.00019601501883845894
+translucent,f_score_imfto,Simulated Log 5,simulated,0.014631077257520213
+translucent,f_score_imfto,Simulated Log 7,simulated,0.003990199403139869
+translucent,f_score_imfto,Simulated Log 8,simulated,0.0017020639341186802
+translucent,f_score_imfto,Simulated Log 9,simulated,0.03896814456909265
+mixed_all,f_score_imtf,BPIC 12 A,real_life,0.6921151541822022
+mixed_all,f_score_imtf,BPIC 12 W,real_life,0.09138720419308399
+mixed_all,f_score_imtf,BPIC 13 Closed Problems,real_life,0.0023182999483600778
+mixed_all,f_score_imtf,BPIC 17 Offer,real_life,0.03465213078428245
+mixed_all,f_score_imtf,BPIC 19 2-way Match,real_life,1.1831513237077668e-05
+mixed_all,f_score_imtf,BPIC 19 Consignment,real_life,0.035893860938322
+mixed_all,f_score_imtf,BPIC 20 Domestic Declarations,real_life,0.006360862080954921
+mixed_all,f_score_imtf,BPIC 20 International Declarations,real_life,0.08378636933646764
+mixed_all,f_score_imtf,BPIC 20 Permit Log,real_life,0.008826966008157083
+mixed_all,f_score_imtf,BPIC 20 Prepaid Travel Cost,real_life,0.014311456372123454
+mixed_all,f_score_imtf,BPIC 20 Request For Payment,real_life,0.0035083273779231983
+mixed_all,f_score_imtf,Berlin Lawmaking,real_life,0.018339033074426726
+mixed_all,f_score_imtf,Helpdesk,real_life,0.07332844834887388
+mixed_all,f_score_imtf,Hospital Billing,real_life,0.04714044774932033
+mixed_all,f_score_imtf,WABO Receipt Phase,real_life,0.0803116963196662
+mixed_all,f_score_imtf,Synthetic Log 1,synthetic,0.003185913853993087
+mixed_all,f_score_imtf,Synthetic Log 10,synthetic,0.0012547646477302208
+mixed_all,f_score_imtf,Synthetic Log 12,synthetic,0.005748919475066746
+mixed_all,f_score_imtf,Synthetic Log 13,synthetic,0.021762374874873796
+mixed_all,f_score_imtf,Synthetic Log 14,synthetic,0.007881328360305568
+mixed_all,f_score_imtf,Synthetic Log 15,synthetic,0.01043226679253867
+mixed_all,f_score_imtf,Synthetic Log 16,synthetic,0.0006241475173298956
+mixed_all,f_score_imtf,Synthetic Log 17,synthetic,1.0515731985620283e-05
+mixed_all,f_score_imtf,Synthetic Log 19,synthetic,0.006072655005704679
+mixed_all,f_score_imtf,Synthetic Log 2,synthetic,0.0006241475173298956
+mixed_all,f_score_imtf,Synthetic Log 20,synthetic,0.006379750074177824
+mixed_all,f_score_imtf,Synthetic Log 21,synthetic,0.0034382741899257026
+mixed_all,f_score_imtf,Synthetic Log 3,synthetic,0.0007419801820432864
+mixed_all,f_score_imtf,Synthetic Log 5,synthetic,0.020573975313700598
+mixed_all,f_score_imtf,Synthetic Log 6,synthetic,0.0006241475173298956
+mixed_all,f_score_imtf,Synthetic Log 7,synthetic,0.0006241475173298956
+mixed_all,f_score_imtf,Synthetic Log 8,synthetic,4.653808028347283e-06
+mixed_all,f_score_imtf,Synthetic Log 9,synthetic,0.0006241475173298956
+mixed_all,f_score_imtf,Simulated Log 1,simulated,0.013567358210958799
+mixed_all,f_score_imtf,Simulated Log 11,simulated,0.0034358052345675395
+mixed_all,f_score_imtf,Simulated Log 12,simulated,0.013259826804076287
+mixed_all,f_score_imtf,Simulated Log 14,simulated,0.016458712274517263
+mixed_all,f_score_imtf,Simulated Log 16,simulated,0.022229081007671736
+mixed_all,f_score_imtf,Simulated Log 17,simulated,0.0005613627120621467
+mixed_all,f_score_imtf,Simulated Log 18,simulated,0.0064386692640687184
+mixed_all,f_score_imtf,Simulated Log 2,simulated,0.011564413103879265
+mixed_all,f_score_imtf,Simulated Log 20,simulated,0.0008499063481648377
+mixed_all,f_score_imtf,Simulated Log 22,simulated,0.005183173120935435
+mixed_all,f_score_imtf,Simulated Log 23,simulated,0.0018959874143042999
+mixed_all,f_score_imtf,Simulated Log 24,simulated,0.004271865537198104
+mixed_all,f_score_imtf,Simulated Log 27,simulated,0.0021213026787063162
+mixed_all,f_score_imtf,Simulated Log 28,simulated,0.0037403718242193275
+mixed_all,f_score_imtf,Simulated Log 3,simulated,0.00939774705067212
+mixed_all,f_score_imtf,Simulated Log 30,simulated,0.07012102324292332
+mixed_all,f_score_imtf,Simulated Log 34,simulated,0.00031765173426327205
+mixed_all,f_score_imtf,Simulated Log 4,simulated,0.007356072992830585
+mixed_all,f_score_imtf,Simulated Log 40,simulated,0.004007500730595085
+mixed_all,f_score_imtf,Simulated Log 42,simulated,0.0005627949719162607
+mixed_all,f_score_imtf,Simulated Log 5,simulated,0.0005602485794771085
+mixed_all,f_score_imtf,Simulated Log 7,simulated,0.007409371541389787
+mixed_all,f_score_imtf,Simulated Log 8,simulated,0.006812439301237229
+mixed_all,f_score_imtf,Simulated Log 9,simulated,0.08909467009970924
+mixed_all,f_score_imts,BPIC 12 A,real_life,0.4694418200694682
+mixed_all,f_score_imts,BPIC 12 W,real_life,0.1983356023356384
+mixed_all,f_score_imts,BPIC 13 Closed Problems,real_life,2.4034925516533787e-07
+mixed_all,f_score_imts,BPIC 17 Offer,real_life,0.0056248523937109845
+mixed_all,f_score_imts,BPIC 19 2-way Match,real_life,0.0033071297877720262
+mixed_all,f_score_imts,BPIC 19 Consignment,real_life,0.00914190915632915
+mixed_all,f_score_imts,BPIC 20 Domestic Declarations,real_life,0.0037812834295348425
+mixed_all,f_score_imts,BPIC 20 International Declarations,real_life,0.08067658600973335
+mixed_all,f_score_imts,BPIC 20 Permit Log,real_life,0.0003455767783639286
+mixed_all,f_score_imts,BPIC 20 Prepaid Travel Cost,real_life,0.013179640697007212
+mixed_all,f_score_imts,BPIC 20 Request For Payment,real_life,0.0026103585980561707
+mixed_all,f_score_imts,Berlin Lawmaking,real_life,0.013614166476163923
+mixed_all,f_score_imts,Helpdesk,real_life,0.023170152901268552
+mixed_all,f_score_imts,Hospital Billing,real_life,0.0676160379509024
+mixed_all,f_score_imts,WABO Receipt Phase,real_life,0.15170750889891363
+mixed_all,f_score_imts,Synthetic Log 1,synthetic,0.006093615690290159
+mixed_all,f_score_imts,Synthetic Log 10,synthetic,0.0004942449905861371
+mixed_all,f_score_imts,Synthetic Log 12,synthetic,0.005457162964852586
+mixed_all,f_score_imts,Synthetic Log 13,synthetic,3.7071375731977085e-05
+mixed_all,f_score_imts,Synthetic Log 14,synthetic,0.003786110540097288
+mixed_all,f_score_imts,Synthetic Log 15,synthetic,0.15365960846856258
+mixed_all,f_score_imts,Synthetic Log 16,synthetic,0.0001368768836729072
+mixed_all,f_score_imts,Synthetic Log 17,synthetic,6.270607659538884e-06
+mixed_all,f_score_imts,Synthetic Log 19,synthetic,0.0015268044795803313
+mixed_all,f_score_imts,Synthetic Log 2,synthetic,0.0001368768836729072
+mixed_all,f_score_imts,Synthetic Log 20,synthetic,0.0020192481035511095
+mixed_all,f_score_imts,Synthetic Log 21,synthetic,0.016383790370005643
+mixed_all,f_score_imts,Synthetic Log 3,synthetic,0.0007475914154606853
+mixed_all,f_score_imts,Synthetic Log 5,synthetic,0.00025395721449375844
+mixed_all,f_score_imts,Synthetic Log 6,synthetic,0.0001368768836729072
+mixed_all,f_score_imts,Synthetic Log 7,synthetic,0.0001368768836729072
+mixed_all,f_score_imts,Synthetic Log 8,synthetic,9.535459777858482e-05
+mixed_all,f_score_imts,Synthetic Log 9,synthetic,0.0001368768836729072
+mixed_all,f_score_imts,Simulated Log 1,simulated,0.0010175877023026717
+mixed_all,f_score_imts,Simulated Log 11,simulated,5.2671359392733494e-05
+mixed_all,f_score_imts,Simulated Log 12,simulated,0.061761349864557905
+mixed_all,f_score_imts,Simulated Log 14,simulated,0.022066258020427186
+mixed_all,f_score_imts,Simulated Log 16,simulated,0.01953679795378066
+mixed_all,f_score_imts,Simulated Log 17,simulated,0.0020175136387546072
+mixed_all,f_score_imts,Simulated Log 18,simulated,0.041324924632556125
+mixed_all,f_score_imts,Simulated Log 2,simulated,0.03234843990926715
+mixed_all,f_score_imts,Simulated Log 20,simulated,0.0016986941379155036
+mixed_all,f_score_imts,Simulated Log 22,simulated,0.0003703111166794423
+mixed_all,f_score_imts,Simulated Log 23,simulated,0.000847827827933384
+mixed_all,f_score_imts,Simulated Log 24,simulated,0.0006163601204565812
+mixed_all,f_score_imts,Simulated Log 27,simulated,0.06355067730924586
+mixed_all,f_score_imts,Simulated Log 28,simulated,0.002837871813659946
+mixed_all,f_score_imts,Simulated Log 3,simulated,0.004576950902826754
+mixed_all,f_score_imts,Simulated Log 30,simulated,0.07236196713657833
+mixed_all,f_score_imts,Simulated Log 34,simulated,0.0052509279209085455
+mixed_all,f_score_imts,Simulated Log 4,simulated,0.005570988728412398
+mixed_all,f_score_imts,Simulated Log 40,simulated,0.008241406497190018
+mixed_all,f_score_imts,Simulated Log 42,simulated,0.0002870880072999019
+mixed_all,f_score_imts,Simulated Log 5,simulated,0.007456578399759003
+mixed_all,f_score_imts,Simulated Log 7,simulated,0.0002405703601626014
+mixed_all,f_score_imts,Simulated Log 8,simulated,0.010139312149178126
+mixed_all,f_score_imts,Simulated Log 9,simulated,0.013953812302301062
+mixed_all,f_score_imto,BPIC 12 A,real_life,0.3350951482208038
+mixed_all,f_score_imto,BPIC 12 W,real_life,0.04849228769631735
+mixed_all,f_score_imto,BPIC 13 Closed Problems,real_life,0.0012545354663773152
+mixed_all,f_score_imto,BPIC 17 Offer,real_life,0.16957014784363358
+mixed_all,f_score_imto,BPIC 19 2-way Match,real_life,4.308199966334211e-05
+mixed_all,f_score_imto,BPIC 19 Consignment,real_life,0.0022662453290667518
+mixed_all,f_score_imto,BPIC 20 Domestic Declarations,real_life,0.012137518970645024
+mixed_all,f_score_imto,BPIC 20 International Declarations,real_life,0.11464650570054793
+mixed_all,f_score_imto,BPIC 20 Permit Log,real_life,0.29239034566523553
+mixed_all,f_score_imto,BPIC 20 Prepaid Travel Cost,real_life,0.015826122611831528
+mixed_all,f_score_imto,BPIC 20 Request For Payment,real_life,0.006934172959344564
+mixed_all,f_score_imto,Berlin Lawmaking,real_life,0.006036879286386815
+mixed_all,f_score_imto,Helpdesk,real_life,0.03694575807534179
+mixed_all,f_score_imto,Hospital Billing,real_life,0.20255868728753249
+mixed_all,f_score_imto,WABO Receipt Phase,real_life,0.0320166867492851
+mixed_all,f_score_imto,Synthetic Log 1,synthetic,0.002604505807712148
+mixed_all,f_score_imto,Synthetic Log 10,synthetic,0.0043791166856557125
+mixed_all,f_score_imto,Synthetic Log 12,synthetic,0.0031057862247202707
+mixed_all,f_score_imto,Synthetic Log 13,synthetic,0.019585501546244326
+mixed_all,f_score_imto,Synthetic Log 14,synthetic,0.006173789755835132
+mixed_all,f_score_imto,Synthetic Log 15,synthetic,2.8659519521387566
+mixed_all,f_score_imto,Synthetic Log 16,synthetic,0.0007239003145446528
+mixed_all,f_score_imto,Synthetic Log 17,synthetic,3.442504309616972e-06
+mixed_all,f_score_imto,Synthetic Log 19,synthetic,0.0008470549556622935
+mixed_all,f_score_imto,Synthetic Log 2,synthetic,0.0007239003145446528
+mixed_all,f_score_imto,Synthetic Log 20,synthetic,0.0076750867389671
+mixed_all,f_score_imto,Synthetic Log 21,synthetic,0.0015262443787801654
+mixed_all,f_score_imto,Synthetic Log 3,synthetic,0.0008790453963625491
+mixed_all,f_score_imto,Synthetic Log 5,synthetic,0.008227791933606654
+mixed_all,f_score_imto,Synthetic Log 6,synthetic,0.0007239003145446528
+mixed_all,f_score_imto,Synthetic Log 7,synthetic,0.0007239003145446528
+mixed_all,f_score_imto,Synthetic Log 8,synthetic,0.0002720853507220435
+mixed_all,f_score_imto,Synthetic Log 9,synthetic,0.0007239003145446528
+mixed_all,f_score_imto,Simulated Log 1,simulated,0.0024633920888331422
+mixed_all,f_score_imto,Simulated Log 11,simulated,0.012055890839720442
+mixed_all,f_score_imto,Simulated Log 12,simulated,0.016531986099036403
+mixed_all,f_score_imto,Simulated Log 14,simulated,0.002765513370568779
+mixed_all,f_score_imto,Simulated Log 16,simulated,0.030364854441229244
+mixed_all,f_score_imto,Simulated Log 17,simulated,0.00015691188641159167
+mixed_all,f_score_imto,Simulated Log 18,simulated,0.001203160113186471
+mixed_all,f_score_imto,Simulated Log 2,simulated,0.07418619313061596
+mixed_all,f_score_imto,Simulated Log 20,simulated,0.0008127017342059719
+mixed_all,f_score_imto,Simulated Log 22,simulated,0.0035583491342909787
+mixed_all,f_score_imto,Simulated Log 23,simulated,0.0005640554096920328
+mixed_all,f_score_imto,Simulated Log 24,simulated,2.378609774186811e-06
+mixed_all,f_score_imto,Simulated Log 27,simulated,0.0006475788329128688
+mixed_all,f_score_imto,Simulated Log 28,simulated,0.02762810175903205
+mixed_all,f_score_imto,Simulated Log 3,simulated,0.020874112893976428
+mixed_all,f_score_imto,Simulated Log 30,simulated,0.037391600729258116
+mixed_all,f_score_imto,Simulated Log 34,simulated,0.019243477717168132
+mixed_all,f_score_imto,Simulated Log 4,simulated,0.0008368001948831348
+mixed_all,f_score_imto,Simulated Log 40,simulated,0.010311154877804747
+mixed_all,f_score_imto,Simulated Log 42,simulated,0.0039032123162006413
+mixed_all,f_score_imto,Simulated Log 5,simulated,0.002289870546255803
+mixed_all,f_score_imto,Simulated Log 7,simulated,0.005523052399184879
+mixed_all,f_score_imto,Simulated Log 8,simulated,0.000876966517409109
+mixed_all,f_score_imto,Simulated Log 9,simulated,0.2073196038201772
+mixed_all,f_score_imftf,BPIC 12 A,real_life,0.17761737952888657
+mixed_all,f_score_imftf,BPIC 12 W,real_life,0.22942011515350053
+mixed_all,f_score_imftf,BPIC 13 Closed Problems,real_life,4.413676479612344e-05
+mixed_all,f_score_imftf,BPIC 17 Offer,real_life,0.0888077066239029
+mixed_all,f_score_imftf,BPIC 19 2-way Match,real_life,0.029318960494484188
+mixed_all,f_score_imftf,BPIC 19 Consignment,real_life,0.00037486662660772834
+mixed_all,f_score_imftf,BPIC 20 Domestic Declarations,real_life,0.0005268006272476656
+mixed_all,f_score_imftf,BPIC 20 International Declarations,real_life,0.23456673966535757
+mixed_all,f_score_imftf,BPIC 20 Permit Log,real_life,0.39791726690387047
+mixed_all,f_score_imftf,BPIC 20 Prepaid Travel Cost,real_life,0.011183229171932771
+mixed_all,f_score_imftf,BPIC 20 Request For Payment,real_life,0.024365914124618433
+mixed_all,f_score_imftf,Berlin Lawmaking,real_life,0.013644694166552222
+mixed_all,f_score_imftf,Helpdesk,real_life,0.001675837031868217
+mixed_all,f_score_imftf,Hospital Billing,real_life,0.00017717095690282316
+mixed_all,f_score_imftf,WABO Receipt Phase,real_life,0.039548796084930615
+mixed_all,f_score_imftf,Synthetic Log 1,synthetic,0.008957327380902678
+mixed_all,f_score_imftf,Synthetic Log 10,synthetic,0.0006788948104656301
+mixed_all,f_score_imftf,Synthetic Log 12,synthetic,0.003301954799106053
+mixed_all,f_score_imftf,Synthetic Log 13,synthetic,0.06517070906719391
+mixed_all,f_score_imftf,Synthetic Log 14,synthetic,0.005835526197538327
+mixed_all,f_score_imftf,Synthetic Log 15,synthetic,0.5695255845814738
+mixed_all,f_score_imftf,Synthetic Log 16,synthetic,0.000533072142443516
+mixed_all,f_score_imftf,Synthetic Log 17,synthetic,3.2212114558431794e-05
+mixed_all,f_score_imftf,Synthetic Log 19,synthetic,0.0001394897682413031
+mixed_all,f_score_imftf,Synthetic Log 2,synthetic,0.000533072142443516
+mixed_all,f_score_imftf,Synthetic Log 20,synthetic,0.04040245147910325
+mixed_all,f_score_imftf,Synthetic Log 21,synthetic,0.008717244779426467
+mixed_all,f_score_imftf,Synthetic Log 3,synthetic,0.0034190649968086047
+mixed_all,f_score_imftf,Synthetic Log 5,synthetic,0.0033858816914205405
+mixed_all,f_score_imftf,Synthetic Log 6,synthetic,0.000533072142443516
+mixed_all,f_score_imftf,Synthetic Log 7,synthetic,0.000533072142443516
+mixed_all,f_score_imftf,Synthetic Log 8,synthetic,0.0003321720173028224
+mixed_all,f_score_imftf,Synthetic Log 9,synthetic,0.000533072142443516
+mixed_all,f_score_imftf,Simulated Log 1,simulated,0.0031081990754260333
+mixed_all,f_score_imftf,Simulated Log 11,simulated,2.3888989683547197e-05
+mixed_all,f_score_imftf,Simulated Log 12,simulated,0.02877304882738114
+mixed_all,f_score_imftf,Simulated Log 14,simulated,0.005827925537508195
+mixed_all,f_score_imftf,Simulated Log 16,simulated,0.2739119401584501
+mixed_all,f_score_imftf,Simulated Log 17,simulated,0.0036076625129052645
+mixed_all,f_score_imftf,Simulated Log 18,simulated,0.0005958649377533337
+mixed_all,f_score_imftf,Simulated Log 2,simulated,0.0005994892228122873
+mixed_all,f_score_imftf,Simulated Log 20,simulated,0.00011189170440970394
+mixed_all,f_score_imftf,Simulated Log 22,simulated,0.00012392805732204984
+mixed_all,f_score_imftf,Simulated Log 23,simulated,0.0002277008458436519
+mixed_all,f_score_imftf,Simulated Log 24,simulated,0.014500392693217741
+mixed_all,f_score_imftf,Simulated Log 27,simulated,0.007059757272019207
+mixed_all,f_score_imftf,Simulated Log 28,simulated,0.002797052829708497
+mixed_all,f_score_imftf,Simulated Log 3,simulated,0.006237122223378313
+mixed_all,f_score_imftf,Simulated Log 30,simulated,0.03070872398853129
+mixed_all,f_score_imftf,Simulated Log 34,simulated,0.007100317303667768
+mixed_all,f_score_imftf,Simulated Log 4,simulated,0.026160539632824116
+mixed_all,f_score_imftf,Simulated Log 40,simulated,0.00403077787441742
+mixed_all,f_score_imftf,Simulated Log 42,simulated,0.0011593121687426347
+mixed_all,f_score_imftf,Simulated Log 5,simulated,2.920959791815154e-07
+mixed_all,f_score_imftf,Simulated Log 7,simulated,0.012076672766402896
+mixed_all,f_score_imftf,Simulated Log 8,simulated,0.006526101122199794
+mixed_all,f_score_imftf,Simulated Log 9,simulated,0.032707390235060405
+mixed_all,f_score_imfts,BPIC 12 A,real_life,0.04713545308689147
+mixed_all,f_score_imfts,BPIC 12 W,real_life,0.14063527415624774
+mixed_all,f_score_imfts,BPIC 13 Closed Problems,real_life,0.003648444000382721
+mixed_all,f_score_imfts,BPIC 17 Offer,real_life,5.3107059097063945e-05
+mixed_all,f_score_imfts,BPIC 19 2-way Match,real_life,0.011145364953649152
+mixed_all,f_score_imfts,BPIC 19 Consignment,real_life,0.01899210682118104
+mixed_all,f_score_imfts,BPIC 20 Domestic Declarations,real_life,0.002164365801617334
+mixed_all,f_score_imfts,BPIC 20 International Declarations,real_life,0.06579140668418643
+mixed_all,f_score_imfts,BPIC 20 Permit Log,real_life,0.01771206240462968
+mixed_all,f_score_imfts,BPIC 20 Prepaid Travel Cost,real_life,0.008474842304008686
+mixed_all,f_score_imfts,BPIC 20 Request For Payment,real_life,0.001331219098980842
+mixed_all,f_score_imfts,Berlin Lawmaking,real_life,0.01912149435243211
+mixed_all,f_score_imfts,Helpdesk,real_life,0.035020473139320926
+mixed_all,f_score_imfts,Hospital Billing,real_life,0.02992934472617502
+mixed_all,f_score_imfts,WABO Receipt Phase,real_life,0.0009594132674772136
+mixed_all,f_score_imfts,Synthetic Log 1,synthetic,0.010428458768098031
+mixed_all,f_score_imfts,Synthetic Log 10,synthetic,0.00020747831759219035
+mixed_all,f_score_imfts,Synthetic Log 12,synthetic,0.008886045789939213
+mixed_all,f_score_imfts,Synthetic Log 13,synthetic,4.43648970338814e-05
+mixed_all,f_score_imfts,Synthetic Log 14,synthetic,0.004977404488330863
+mixed_all,f_score_imfts,Synthetic Log 15,synthetic,2.695661390750944
+mixed_all,f_score_imfts,Synthetic Log 16,synthetic,0.0002826810375863364
+mixed_all,f_score_imfts,Synthetic Log 17,synthetic,0.0009539246652534184
+mixed_all,f_score_imfts,Synthetic Log 19,synthetic,0.008284643452970196
+mixed_all,f_score_imfts,Synthetic Log 2,synthetic,0.0002826810375863364
+mixed_all,f_score_imfts,Synthetic Log 20,synthetic,0.002652537398077744
+mixed_all,f_score_imfts,Synthetic Log 21,synthetic,0.026379865717328883
+mixed_all,f_score_imfts,Synthetic Log 3,synthetic,0.006117125391397983
+mixed_all,f_score_imfts,Synthetic Log 5,synthetic,0.0007450753661767809
+mixed_all,f_score_imfts,Synthetic Log 6,synthetic,0.0002826810375863364
+mixed_all,f_score_imfts,Synthetic Log 7,synthetic,0.0002826810375863364
+mixed_all,f_score_imfts,Synthetic Log 8,synthetic,0.0013835285033029527
+mixed_all,f_score_imfts,Synthetic Log 9,synthetic,0.0002826810375863364
+mixed_all,f_score_imfts,Simulated Log 1,simulated,0.001861577459897817
+mixed_all,f_score_imfts,Simulated Log 11,simulated,0.0034311878813761847
+mixed_all,f_score_imfts,Simulated Log 12,simulated,0.054637466012459814
+mixed_all,f_score_imfts,Simulated Log 14,simulated,0.04063012380138131
+mixed_all,f_score_imfts,Simulated Log 16,simulated,0.016596139789856346
+mixed_all,f_score_imfts,Simulated Log 17,simulated,0.0014594003728908094
+mixed_all,f_score_imfts,Simulated Log 18,simulated,0.07808669091471089
+mixed_all,f_score_imfts,Simulated Log 2,simulated,0.03016026692778987
+mixed_all,f_score_imfts,Simulated Log 20,simulated,0.0007424550932889217
+mixed_all,f_score_imfts,Simulated Log 22,simulated,0.0005467872878891051
+mixed_all,f_score_imfts,Simulated Log 23,simulated,0.0021187655251569265
+mixed_all,f_score_imfts,Simulated Log 24,simulated,0.0028842337832749613
+mixed_all,f_score_imfts,Simulated Log 27,simulated,0.05425747122179564
+mixed_all,f_score_imfts,Simulated Log 28,simulated,0.003970902152794382
+mixed_all,f_score_imfts,Simulated Log 3,simulated,0.00800551457154363
+mixed_all,f_score_imfts,Simulated Log 30,simulated,0.11675213315810487
+mixed_all,f_score_imfts,Simulated Log 34,simulated,0.018677022933271194
+mixed_all,f_score_imfts,Simulated Log 4,simulated,0.015597644808490964
+mixed_all,f_score_imfts,Simulated Log 40,simulated,0.009078755545255368
+mixed_all,f_score_imfts,Simulated Log 42,simulated,3.521907519563841e-06
+mixed_all,f_score_imfts,Simulated Log 5,simulated,0.004112100322399448
+mixed_all,f_score_imfts,Simulated Log 7,simulated,4.168581475774699e-06
+mixed_all,f_score_imfts,Simulated Log 8,simulated,0.01839230228571734
+mixed_all,f_score_imfts,Simulated Log 9,simulated,0.007793974512226086
+mixed_all,f_score_imfto,BPIC 12 A,real_life,0.16624699830349157
+mixed_all,f_score_imfto,BPIC 12 W,real_life,0.20370821088250385
+mixed_all,f_score_imfto,BPIC 13 Closed Problems,real_life,0.005798054335405481
+mixed_all,f_score_imfto,BPIC 17 Offer,real_life,0.21298984917980077
+mixed_all,f_score_imfto,BPIC 19 2-way Match,real_life,0.01368267994836412
+mixed_all,f_score_imfto,BPIC 19 Consignment,real_life,0.0036355376499940433
+mixed_all,f_score_imfto,BPIC 20 Domestic Declarations,real_life,0.00031132609902516427
+mixed_all,f_score_imfto,BPIC 20 International Declarations,real_life,0.03941929540315889
+mixed_all,f_score_imfto,BPIC 20 Permit Log,real_life,0.006625922248097152
+mixed_all,f_score_imfto,BPIC 20 Prepaid Travel Cost,real_life,0.0007349975664277807
+mixed_all,f_score_imfto,BPIC 20 Request For Payment,real_life,0.009900326191383195
+mixed_all,f_score_imfto,Berlin Lawmaking,real_life,0.0002886811557125096
+mixed_all,f_score_imfto,Helpdesk,real_life,0.0034751891856592077
+mixed_all,f_score_imfto,Hospital Billing,real_life,0.18487294808231167
+mixed_all,f_score_imfto,WABO Receipt Phase,real_life,0.01928941496351964
+mixed_all,f_score_imfto,Synthetic Log 1,synthetic,0.013415782349638023
+mixed_all,f_score_imfto,Synthetic Log 10,synthetic,0.003531559071599337
+mixed_all,f_score_imfto,Synthetic Log 12,synthetic,0.0041038469252878
+mixed_all,f_score_imfto,Synthetic Log 13,synthetic,0.05382574509491672
+mixed_all,f_score_imfto,Synthetic Log 14,synthetic,0.0038970453107228576
+mixed_all,f_score_imfto,Synthetic Log 15,synthetic,5.860804674296631
+mixed_all,f_score_imfto,Synthetic Log 16,synthetic,0.000310129642704419
+mixed_all,f_score_imfto,Synthetic Log 17,synthetic,0.0002600738115686265
+mixed_all,f_score_imfto,Synthetic Log 19,synthetic,0.0005156465777839588
+mixed_all,f_score_imfto,Synthetic Log 2,synthetic,0.000310129642704419
+mixed_all,f_score_imfto,Synthetic Log 20,synthetic,0.030157621063416157
+mixed_all,f_score_imfto,Synthetic Log 21,synthetic,2.4805761966503494e-06
+mixed_all,f_score_imfto,Synthetic Log 3,synthetic,0.0030392487173562023
+mixed_all,f_score_imfto,Synthetic Log 5,synthetic,0.006127443751661703
+mixed_all,f_score_imfto,Synthetic Log 6,synthetic,0.000310129642704419
+mixed_all,f_score_imfto,Synthetic Log 7,synthetic,0.000310129642704419
+mixed_all,f_score_imfto,Synthetic Log 8,synthetic,0.0020905760287219196
+mixed_all,f_score_imfto,Synthetic Log 9,synthetic,0.000310129642704419
+mixed_all,f_score_imfto,Simulated Log 1,simulated,0.0002961335995478702
+mixed_all,f_score_imfto,Simulated Log 11,simulated,0.00980718541862095
+mixed_all,f_score_imfto,Simulated Log 12,simulated,0.025834647047076942
+mixed_all,f_score_imfto,Simulated Log 14,simulated,0.0008685366168391345
+mixed_all,f_score_imfto,Simulated Log 16,simulated,0.15280855714783206
+mixed_all,f_score_imfto,Simulated Log 17,simulated,4.489118287752555e-05
+mixed_all,f_score_imfto,Simulated Log 18,simulated,0.00507921735509769
+mixed_all,f_score_imfto,Simulated Log 2,simulated,0.1490358856391626
+mixed_all,f_score_imfto,Simulated Log 20,simulated,0.0010254052771204755
+mixed_all,f_score_imfto,Simulated Log 22,simulated,0.0015710092489021124
+mixed_all,f_score_imfto,Simulated Log 23,simulated,0.005056819760198593
+mixed_all,f_score_imfto,Simulated Log 24,simulated,0.004287144771335189
+mixed_all,f_score_imfto,Simulated Log 27,simulated,0.0002333194659030276
+mixed_all,f_score_imfto,Simulated Log 28,simulated,0.012582222356431125
+mixed_all,f_score_imfto,Simulated Log 3,simulated,0.039445095576521996
+mixed_all,f_score_imfto,Simulated Log 30,simulated,0.01326754846834016
+mixed_all,f_score_imfto,Simulated Log 34,simulated,0.004337852858407112
+mixed_all,f_score_imfto,Simulated Log 4,simulated,0.020278974901709046
+mixed_all,f_score_imfto,Simulated Log 40,simulated,0.004679799581448313
+mixed_all,f_score_imfto,Simulated Log 42,simulated,0.005067477002654344
+mixed_all,f_score_imfto,Simulated Log 5,simulated,0.0011702812763112983
+mixed_all,f_score_imfto,Simulated Log 7,simulated,0.016649064084757748
+mixed_all,f_score_imfto,Simulated Log 8,simulated,0.0009303336651815489
+mixed_all,f_score_imfto,Simulated Log 9,simulated,0.18637657094321372
