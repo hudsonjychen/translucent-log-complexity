@@ -21,6 +21,7 @@ dist/
 .DS_Store
 Thumbs.db
 
-simulated_logs_discarded/
 real_life_logs/
 simulated_logs/
+synthetic_logs/
+evaluation_old/
