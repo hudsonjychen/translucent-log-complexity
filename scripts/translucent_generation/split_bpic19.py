@@ -5,12 +5,6 @@ The BPIC 2019 process consists of four flows, one per item category:
     2-way match, 3-way match invoice after GR, 3-way match invoice before GR, Consignment
 
 Each becomes its own .xes file named "BPIC 19 <category>.xes".
-
-Usage (from the repo root):
-    venv\\Scripts\\python.exe scripts\\real_life_logs\\split_bpic19.py
-    venv\\Scripts\\python.exe scripts\\real_life_logs\\split_bpic19.py --out-dir real_life_logs\\bpic19_sub
-
-    By default it reads real_life_logs\\BPIC 19.xes and writes into real_life_logs\\.
 """
 import argparse
 from pathlib import Path

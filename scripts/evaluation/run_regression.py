@@ -7,10 +7,6 @@ from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 
 def design_matrix(sub: pd.DataFrame, predictors: list[str], controls: list[str] | None = None) -> pd.DataFrame:
-    """Predictors plus optional control variables, without the constant.
-
-    Numeric controls are used as they are. Non-numeric controls (e.g. a dataset label)
-    are turned into 0/1 dummies, dropping the first category as the reference."""
     controls = controls or []
     X = sub[predictors].astype(float)
     for c in controls:
@@ -22,7 +18,6 @@ def design_matrix(sub: pd.DataFrame, predictors: list[str], controls: list[str] 
 
 
 def control_columns(X: pd.DataFrame, predictors: list[str]) -> list[str]:
-    """Columns of the design matrix that come from the controls (dummies included)."""
     return [c for c in X.columns if c not in predictors]
 
 
@@ -35,8 +30,6 @@ def vif_table(df, predictors, controls: list[str] | None = None):
 
 
 def run_ols(df, predictors, target, controls: list[str] | None = None):
-    """OLS of target on predictors (+ optional controls). Rows with a missing value in any
-    of the used columns are dropped."""
     controls = controls or []
     sub = df[predictors + controls + [target]].dropna()
     X = sm.add_constant(design_matrix(sub, predictors, controls))
@@ -76,9 +69,6 @@ def fit_stats(model, tgt, controls: list[str] | None = None):
 
 def run_regression(df, targets, predictors, out_dir: Path, type: Literal["translucent", "baseline", "mixed"]="translucent",
                    controls: list[str] | None = None):
-    """Fit one OLS per target. `controls` is an optional list of column names that are added to
-    every model as control variables; their coefficients are marked role="control" in the output.
-    With controls, the files get a "_controlled" suffix so they do not overwrite the plain results."""
     out_dir.mkdir(parents=True, exist_ok=True)
     suffix = f"{type}_controlled" if controls else type
     all_coefs, all_stats = [], []

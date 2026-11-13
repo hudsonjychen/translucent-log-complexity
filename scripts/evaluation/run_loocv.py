@@ -6,7 +6,6 @@ from scripts.evaluation.run_regression import run_ols
 
 
 def loocv_metrics(df, predictors, target, controls: list[str] | None = None):
-    """Leave-one-out fit of an OLS model with optional control variables (see run_ols)."""
     model, sub = run_ols(df, predictors, target, controls)
     loo_resid = model.get_influence().resid_press
     y = sub[target].to_numpy()
@@ -26,7 +25,6 @@ def loocv_metrics(df, predictors, target, controls: list[str] | None = None):
 
 def loocv_summary(df, targets, predictors, out_dir, type: Literal["translucent", "baseline"]="translucent",
                   controls: list[str] | None = None):
-    """With controls, the file gets a "_controlled" suffix so it does not overwrite the plain results."""
     summary = pd.DataFrame([loocv_metrics(df, predictors, t, controls) for t in targets]).set_index("target")
     out_dir.mkdir(parents=True, exist_ok=True)
     suffix = f"{type}_controlled" if controls else type

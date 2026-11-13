@@ -1,32 +1,32 @@
 Generate simulated event logs
-"python scripts/simulated_generation/run_generation.py --number-per-setting 5 --noise 0.2"
+python scripts/simulated_generation/run_generation.py --number-per-setting 5 --noise 0.2
 
 Generate translucent event logs
 --- real-life ---
-"python scripts/translucent_generation/run_generation.py --timeout-hours 3 --logs-dir real_life_logs --out-dir results/translucent_real_life --combined results/translucent_real_life/translucent_real_life_logs.pkl"
+python scripts/translucent_generation/run_generation.py --timeout-hours 6 --logs-dir real_life_logs --out-dir results/translucent_real_life --combined results/translucent_real_life/translucent_real_life_logs.pkl
 --- synthetic ---
-"python scripts/translucent_generation/run_generation.py --timeout-hours 3 --logs-dir synthetic_logs --out-dir results/translucent_synthetic --combined results/translucent_synthetic/translucent_synthetic_logs.pkl"
+python scripts/translucent_generation/run_generation.py --timeout-hours 6 --logs-dir synthetic_logs --out-dir results/translucent_synthetic --combined results/translucent_synthetic/translucent_synthetic_logs.pkl
 --- simulated ---
-"python scripts/translucent_generation/run_generation.py --timeout-hours 3 --no-split --logs-dir simulated_logs --out-dir results/translucent_simulated --combined results/translucent_simulated/translucent_simulated_logs.pkl"
+python scripts/translucent_generation/run_generation.py --timeout-hours 6 --no-split --logs-dir simulated_logs --out-dir results/translucent_simulated --combined results/translucent_simulated/translucent_simulated_logs.pkl
 
 Get activity number
 --- real-life ---
-"python scripts/evaluation/get_activity_number.py --input results/translucent_real_life/translucent_real_life_logs.pkl --output results/evaluation/real_life/activity_number.csv"
+python scripts/evaluation/get_activity_number.py --input results/translucent_real_life/translucent_real_life_logs.pkl --output results/evaluation/real_life/activity_number.csv
 --- synthetic ---
-"python scripts/evaluation/get_activity_number.py --input results/translucent_synthetic/translucent_synthetic_logs.pkl --output results/evaluation/synthetic/activity_number.csv"
+python scripts/evaluation/get_activity_number.py --input results/translucent_synthetic/translucent_synthetic_logs.pkl --output results/evaluation/synthetic/activity_number.csv
 --- simulated ---
-"python scripts/evaluation/get_activity_number.py --input results/translucent_simulated/translucent_simulated_logs.pkl --output results/evaluation/simulated/activity_number.csv"
+python scripts/evaluation/get_activity_number.py --input results/translucent_simulated/translucent_simulated_logs.pkl --output results/evaluation/simulated/activity_number.csv
 
 Compute complexity and quality
 --- real-life ---
-"python scripts/evaluation/run_complexity.py --input results/translucent_real_life/translucent_real_life_logs.pkl --output results/evaluation/real_life/complexity.csv"
-"python scripts/evaluation/run_baseline_complexity.py --input results/translucent_real_life/translucent_real_life_logs.pkl --output results/evaluation/real_life/baseline_complexity.csv"
-"python scripts/evaluation/run_model_quality.py --input results/translucent_real_life/translucent_real_life_logs.pkl --output results/evaluation/real_life/quality.csv --methods ("token_replay", "translucent_precision")"
+python scripts/evaluation/run_complexity.py --input results/translucent_real_life/translucent_real_life_logs.pkl --output results/evaluation/real_life/complexity.csv
+python scripts/evaluation/run_baseline_complexity.py --input results/translucent_real_life/translucent_real_life_logs.pkl --output results/evaluation/real_life/baseline_complexity.csv
+python scripts/evaluation/run_model_quality.py --input results/translucent_real_life/translucent_real_life_logs.pkl --output results/evaluation/real_life/quality.csv --methods token_replay
 --- synthetic ---
-"python scripts/evaluation/run_complexity.py --input results/translucent_synthetic/translucent_synthetic_logs.pkl --output results/evaluation/synthetic/complexity.csv"
-"python scripts/evaluation/run_baseline_complexity.py --input results/translucent_synthetic/translucent_synthetic_logs.pkl --output results/evaluation/synthetic/baseline_complexity.csv"
-"python scripts/evaluation/run_model_quality.py --input results/translucent_synthetic/translucent_synthetic_logs.pkl --output results/evaluation/synthetic/quality.csv --methods ("token_replay", "translucent_precision")"
+python scripts/evaluation/run_complexity.py --input results/translucent_synthetic/translucent_synthetic_logs.pkl --output results/evaluation/synthetic/complexity.csv
+python scripts/evaluation/run_baseline_complexity.py --input results/translucent_synthetic/translucent_synthetic_logs.pkl --output results/evaluation/synthetic/baseline_complexity.csv
+python scripts/evaluation/run_model_quality.py --input results/translucent_synthetic/translucent_synthetic_logs.pkl --output results/evaluation/synthetic/quality.csv --methods token_replay
 --- simulated ---
-"python scripts/evaluation/run_complexity.py --input results/translucent_simulated/translucent_simulated_logs.pkl --output results/evaluation/simulated/complexity.csv"
-"python scripts/evaluation/run_baseline_complexity.py --input results/translucent_simulated/translucent_simulated_logs.pkl --output results/evaluation/simulated/baseline_complexity.csv"
-"python scripts/evaluation/run_model_quality.py --input results/translucent_simulated/translucent_simulated_logs.pkl --output results/evaluation/simulated/quality.csv --methods ("token_replay", "translucent_precision")"
+python scripts/evaluation/run_complexity.py --input results/translucent_simulated/translucent_simulated_logs.pkl --output results/evaluation/simulated/complexity.csv
+python scripts/evaluation/run_baseline_complexity.py --input results/translucent_simulated/translucent_simulated_logs.pkl --output results/evaluation/simulated/baseline_complexity.csv
+python scripts/evaluation/run_model_quality.py --input results/translucent_simulated/translucent_simulated_logs.pkl --output results/evaluation/simulated/quality.csv --methods token_replay

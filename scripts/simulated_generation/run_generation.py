@@ -1,22 +1,3 @@
-"""
-Generate random process trees, simulate a log from each, and save everything to --out-dir.
-
-For every tree it writes:
-    Simulated Log <n>.xes    the simulated log (input for the generation pipeline)
-    Simulated Log <n>.ptml   the generating process tree (ground truth)
-    Simulated Log <n>.pnml   the Petri net the log was simulated from
-and one logs_info.json with the settings and seed of every log.
-
-The generation itself is in src/log_simulation/generate_tree_logs.py.
-
-Usage (from the repo root):
-    venv\\Scripts\\python.exe scripts\\simulated_generation\\run_generation.py --number-per-setting 3
-    venv\\Scripts\\python.exe scripts\\simulated_generation\\run_generation.py --number-per-setting 5 --parallel 0 0.1 --loop 0
-    venv\\Scripts\\python.exe scripts\\simulated_generation\\run_generation.py --number-per-setting 5 --noise 0.1
-
---noise is optional: the share of traces per log (0..1) that get one noise operation
-(remove / insert / swap an event). Without it the logs are noise-free.
-"""
 import argparse
 import json
 import sys

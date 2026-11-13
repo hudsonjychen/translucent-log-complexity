@@ -1,15 +1,6 @@
-"""Install the third-party packages needed by the code under external/ that this project uses.
-
-The submodules' own requirements files are not installed directly: they conflict with each
-other (process-complexity pins pm4py==2.2.19, semantic-aware-process-mining-distances pulls in
-tensorflow/torch/lightning and another numpy) and mostly list packages this project never
-imports. The lists below were derived from the import closure of the external modules that
-src/ actually imports. Packages shared with this project's own code are pinned through
-requirements_local.txt (passed to pip as a constraints file), so both stay consistent.
-
+"""
 Usage:
     python install_external_requirements.py            # install into the current interpreter
-    python install_external_requirements.py --dry-run  # only print the pip command
 """
 import argparse
 import subprocess

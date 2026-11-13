@@ -68,15 +68,11 @@ def show_scatterplot(df, x, y, title, xlabel = None, ylabel = None):
 
 
 def _with_type(path: Path, type: str) -> Path:
-    """p_corr.csv -> p_corr_translucent.csv"""
     path = Path(path)
     return path.with_name(f"{path.stem}_{type}{path.suffix}")
 
 
 def run_correlations(df, outputs: list[Path], type: Literal["translucent", "baseline"] = "translucent"):
-    """outputs: [pearson corr, pearson p-values, kendall corr, kendall p-values];
-    each file is saved with _<type> before its extension. Saved without row labels
-    (the rows are in the same order as the columns). verbose=True prints each written path."""
     p_corr = get_corr_matrix(df, method="pearson")
     p_p_values = get_p_values(df, method="pearson")
     k_corr = get_corr_matrix(df, method="kendall")

@@ -1,16 +1,3 @@
-"""
-Count the activities of every translucent log and save them as a CSV (one row per log):
-    num_activities_executed   |A_L^ex|  activities that occur as events
-    num_activities            |A_L|     activities that are executed or appear in an enabled set
-    num_activities_enabled_only         activities that are enabled at some point but never executed
-
-The enabled sets are parsed like in src/complexity_measurements (split on ","), so |A_L| is the
-same activity set the complexity metrics use (e.g. for avg-norm).
-
-Usage (from the repo root):
-    venv\\Scripts\\python.exe scripts\\evaluation\\get_activity_number.py
-    venv\\Scripts\\python.exe scripts\\evaluation\\get_activity_number.py --input results\\translucent_simulated\\translucent_simulated_logs.pkl --output results\\evaluation\\simulated\\activity_number.csv
-"""
 import argparse
 import pickle
 import sys
