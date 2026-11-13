@@ -36,7 +36,7 @@ Python 3.10 is required. Run from the repository root:
 
 ```bash
 python -m venv venv
-source venv/bin/activate        # macOS: venv\Scripts\Activate.ps1
+source venv/bin/activate        # Windows: venv\Scripts\Activate.ps1
 pip install -r requirements_local.txt
 python install_external_requirements.py
 ```

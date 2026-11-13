@@ -6,8 +6,6 @@ import pandas as pd
 def apply_two_part_rule(df: pd.DataFrame, min_cases: int = 30, min_retention: float = 0.10,
                         cases_col: str = "support", retention_col: str = "retention"
                         ) -> tuple[pd.DataFrame, pd.DataFrame]:
-    """Split df into (kept, excluded). excluded has a "reason" column; a log with an unknown
-    retention is excluded as well."""
     too_small = df[cases_col] < min_cases
     unknown = df[retention_col].isna()
     low_retention = df[retention_col] < min_retention
@@ -26,9 +24,6 @@ def apply_two_part_rule(df: pd.DataFrame, min_cases: int = 30, min_retention: fl
 
 def sensitivity_grid(df: pd.DataFrame, case_thresholds: Sequence[int], retention_thresholds: Sequence[float],
                      analysis: Callable[[pd.DataFrame], dict], **rule_kwargs) -> pd.DataFrame:
-    """Run `analysis` on the sample of every (min_cases, min_retention) pair.
-
-    `analysis` takes the kept logs and returns a dict of results; one row per pair."""
     rows = []
     for min_cases in case_thresholds:
         for min_retention in retention_thresholds:
