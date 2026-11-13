@@ -36,7 +36,7 @@ Python 3.10 is required. Run from the repository root:
 
 ```bash
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\Activate.ps1
+source venv/bin/activate        # macOS: venv\Scripts\Activate.ps1
 pip install -r requirements_local.txt
 python install_external_requirements.py
 ```
@@ -50,8 +50,6 @@ The metrics take a pm4py-style DataFrame whose `enabled_activities` column holds
 ```python
 import pandas as pd
 from src.complexity_measurements.measure_complexity import measure_complexity
-
-df = pd.read_csv("my_translucent_log.csv")
 
 measure_complexity(df, "average")        # scale-c
 measure_complexity(df, "diversity")      # div-c
