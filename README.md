@@ -182,10 +182,6 @@ results = (
 
 `results` contains one row per log with the raw and standardized translucent and baseline complexity metrics (baseline z-scores carry the suffix `_z`) and the fitness, precision, and F-score of each discovery variant, ready for correlation and regression analysis.
 
-## Data
-
-The `data/` folder contains ten synthetic event logs (`GenEL 01.xes` - `GenEL 10.xes`) used as input to the pipeline. The other real-life event logs used in the evaluation is not provided in the repository. They are all openly available and can be downloaded on the internet.
-
 ## Acknowledgements
 
 This work builds on the following repositories, included as git submodules:
