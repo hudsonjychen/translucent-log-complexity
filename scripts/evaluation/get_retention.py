@@ -1,21 +1,3 @@
-"""
-Share of cases that survive translucent generation, one row per log, saved as a CSV:
-    cases_source   traces in the original .xes log
-    cases_base     cases the translucent log was made from: the test split when the log was
-                   generated with a train/test split, otherwise all traces
-    cases_kept     cases in the translucent log (only perfectly fitting cases are kept)
-    retention      cases_kept / cases_base
-
-cases_kept and the split settings come from the per-log .json files that
-scripts/translucent_generation/run_generation.py writes next to each result; cases_source is
-counted directly in the source .xes. The test split size matches src/pipeline/split_logs.py
-(train = int(n * train_ratio), test = the rest).
-
-Usage (from the repo root):
-    venv\\Scripts\\python.exe scripts\\evaluation\\get_retention.py
-    venv\\Scripts\\python.exe scripts\\evaluation\\get_retention.py --translucent-dir results\\translucent_synthetic --source-dir synthetic_logs --output results\\evaluation\\synthetic\\retention.csv
-    venv\\Scripts\\python.exe scripts\\evaluation\\get_retention.py --translucent-dir results\\translucent_simulated --source-dir simulated_logs --output results\\evaluation\\simulated\\retention.csv
-"""
 import argparse
 import json
 import re

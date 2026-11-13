@@ -1,12 +1,3 @@
-"""
-Sample selection for the analysis: the two-part rule and a sensitivity grid over its thresholds.
-
-Two-part rule: keep a log when
-    1. its translucent log has at least `min_cases` cases (stability: avg-raw is within 5% of its
-       full-log value in 90% of logs from 30 cases on), and
-    2. at least `min_retention` of the cases it was made from survived translucent generation
-       (representativeness; see scripts/evaluation/get_retention.py).
-"""
 from typing import Callable, Sequence
 
 import pandas as pd

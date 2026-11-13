@@ -1,24 +1,3 @@
-"""
-Generate translucent logs for every .xes file in parallel, with checkpoints.
-
-Each log runs in its own subprocess, so a crash, out-of-memory kill or timeout
-only loses that one log. Each finished log is saved right away to
-<out-dir>/<name>.pkl (plus <name>.json with its settings and stats), and the
-run skips logs that already have a result made with the same settings, so you
-can stop and restart it at any time. When everything is done, all results are
-combined into one pickle (a list of Log dicts, like generate_translucent_logs).
-
-Usage (from the repo root):
-    venv\\Scripts\\python.exe scripts\\translucent_generation\\run_generation.py --timeout-hours 3
-    venv\\Scripts\\python.exe scripts\\translucent_generation\\run_generation.py --workers 12 --big-workers 2
-    venv\\Scripts\\python.exe scripts\\translucent_generation\\run_generation.py --only Helpdesk "BPIC 13 Closed Problems"
-
-    For the simulated logs, give them their own output paths so they don't mix with the real-life results:
-    venv\\Scripts\\python.exe scripts\\translucent_generation\\run_generation.py --logs-dir simulated_logs --out-dir results\\translucent_simulated --combined results\\translucent_simulated\\translucent_simulated_logs.pkl
-
-Progress:   results/logs/generation.log  (one line per start / finish / failure)
-Per log:    results/logs/<name>.log      (that log's own output and traceback)
-"""
 import argparse
 import json
 import logging
