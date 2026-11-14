@@ -66,6 +66,10 @@ Each step is a script under `scripts/`. [`scripts/scripts.txt`](scripts/scripts.
 3. **Compute translucent and baseline complexity**, and the **model quality** (token-based replay F-score) of the six discovered models per log: `scripts/evaluation/run_*.py`
 4. **Analyze**: correlation (Kendall's τ, Pearson's r), regression, LOOCV, and influence diagnostics: `scripts/evaluation/` and [`notebooks/experiment.ipynb`](notebooks/experiment.ipynb)
 
+## Data
+
+The `data/` folder contains ten synthetic event logs (`GenEL 01.xes` - `GenEL 10.xes`) used as input to the pipeline. The other real-life event logs used in the evaluation is not provided in the repository. They are all openly available and can be downloaded on the internet.
+
 ## Acknowledgements
 
 This work builds on the following third-party repositories, included as git submodules under `external/`:
