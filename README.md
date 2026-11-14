@@ -34,6 +34,16 @@ As baselines, established complexity metrics for classical event logs are comput
 
 Python 3.10 is required. Run from the repository root:
 
+First, clone the three third-party repositories into `external/`:
+
+```bash
+git clone https://github.com/hherbertb/TranslucentActivityRelationships.git external/TranslucentActivityRelationships
+git clone https://github.com/henrikkirchmann/semantic-aware-process-mining-distances.git external/semantic-aware-process-mining-distances
+git clone https://github.com/MaxVidgof/process-complexity.git external/process-complexity
+```
+
+Then create a virtual environment and install the dependencies:
+
 ```bash
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\Activate.ps1
@@ -41,7 +51,7 @@ pip install -r requirements_local.txt
 python install_external_requirements.py
 ```
 
-Third-party code is used through the git submodules in `external/`. The scripts add these submodules to the Python path themselves.
+The scripts add these submodules to the Python path themselves.
 
 ## Usage
 
@@ -68,7 +78,7 @@ Each step is a script under `scripts/`. [`scripts/scripts.txt`](scripts/scripts.
 
 ## Data
 
-The `data/` folder contains ten synthetic event logs (`GenEL 01.xes` - `GenEL 10.xes`) used as input to the pipeline. The other real-life event logs used in the evaluation is not provided in the repository. They are all openly available and can be downloaded on the internet.
+The `data/` folder contains synthetic and simulated event logs used as input to the pipeline. The other real-world event logs used in the evaluation is not provided in the repository. They are all openly available and can be downloaded on the internet.
 
 ## Acknowledgements
 
